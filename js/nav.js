@@ -2,6 +2,7 @@ window.HDS_NAV = [
   {
     label: "GUIDE",
     items: [
+      { id: "cover", label: "Cover", next: "start", nextLabel: "Next — Start" },
       { id: "start", label: "Start", next: "philosophy", nextLabel: "Next — Philosophy" },
       { id: "philosophy", label: "Philosophy", next: "principles", nextLabel: "Next — Principles" },
       { id: "principles", label: "Principles", next: "voice", nextLabel: "Next — Voice & tone" },

@@ -292,6 +292,12 @@ button:focus-visible {
   gap: 10px;
   height: 44px;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 0.85;
+  text-decoration: none;
 }
 
 .logo img {

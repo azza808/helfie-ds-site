@@ -53,9 +53,14 @@
     cover.classList.remove("is-hidden");
     app.classList.remove("is-active");
     document.title = "Helfie Design System";
+    window.scrollTo(0, 0);
   }
 
   function showPage(id) {
+    if (!id || id === "cover") {
+      showCover();
+      return;
+    }
     var meta = findMeta(id);
     if (!meta) {
       showCover();
@@ -78,6 +83,18 @@
     if (!hash || hash === "cover") showCover();
     else showPage(hash);
   }
+
+  /* Logo / Cover nav: always return to cover (hashchange alone can miss same-hash clicks). */
+  document.addEventListener("click", function (e) {
+    var link = e.target.closest && e.target.closest('a[href="#cover"]');
+    if (!link) return;
+    e.preventDefault();
+    if (location.hash !== "#cover") {
+      location.hash = "cover";
+    } else {
+      showCover();
+    }
+  });
 
   window.addEventListener("hashchange", route);
   route();
