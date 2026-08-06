@@ -1,0 +1,28 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Technology">
+<path d="M-396.5 -284C-396.5 -285.105 -395.605 -286 -394.5 -286H1101.5C1102.6 -286 1103.5 -285.105 1103.5 -284V1212C1103.5 1213.1 1102.6 1214 1101.5 1214H-394.5C-395.605 1214 -396.5 1213.1 -396.5 1212V-284Z" fill="white"/>
+<path d="M-394.5 -286V-285H1101.5V-286V-287H-394.5V-286ZM1103.5 -284H1102.5V1212H1103.5H1104.5V-284H1103.5ZM1101.5 1214V1213H-394.5V1214V1215H1101.5V1214ZM-396.5 1212H-395.5V-284H-396.5H-397.5V1212H-396.5ZM-394.5 1214V1213C-395.052 1213 -395.5 1212.55 -395.5 1212H-396.5H-397.5C-397.5 1213.66 -396.157 1215 -394.5 1215V1214ZM1103.5 1212H1102.5C1102.5 1212.55 1102.05 1213 1101.5 1213V1214V1215C1103.16 1215 1104.5 1213.66 1104.5 1212H1103.5ZM1101.5 -286V-285C1102.05 -285 1102.5 -284.552 1102.5 -284H1103.5H1104.5C1104.5 -285.657 1103.16 -287 1101.5 -287V-286ZM-394.5 -286V-287C-396.157 -287 -397.5 -285.657 -397.5 -284H-396.5H-395.5C-395.5 -284.552 -395.052 -285 -394.5 -285V-286Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Microchip">
+<rect x="-20" y="-53.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="AI model">
+<path id="Vector" d="M18.1875 4.43848H5.8125C5.05311 4.43848 4.4375 5.05409 4.4375 5.81348V18.1885C4.4375 18.9479 5.05311 19.5635 5.8125 19.5635H18.1875C18.9469 19.5635 19.5625 18.9479 19.5625 18.1885V5.81348C19.5625 5.05409 18.9469 4.43848 18.1875 4.43848Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M12 4.43848V2.37598" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M7.1875 4.43848V2.37598" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M16.8125 4.43848V2.37598" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M12 21.624V19.5615" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M7.1875 21.624V19.5615" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M16.8125 21.624V19.5615" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M21.625 12H19.5625" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M21.625 16.8135H19.5625" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M21.625 7.18652H19.5625" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M4.4375 12H2.375" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M4.4375 16.8135H2.375" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" d="M4.4375 7.18652H2.375" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" d="M8.5625 7.93652H15.4375C15.7827 7.93652 16.0625 8.21635 16.0625 8.56152V15.4365C16.0625 15.7817 15.7827 16.0615 15.4375 16.0615H8.5625C8.21732 16.0615 7.9375 15.7817 7.9375 15.4365V8.56152C7.9375 8.21635 8.21732 7.93652 8.5625 7.93652Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

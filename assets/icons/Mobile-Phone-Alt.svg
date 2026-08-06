@@ -1,0 +1,21 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Technology">
+<path d="M-948 -284C-948 -285.105 -947.105 -286 -946 -286H550C551.104 -286 552 -285.105 552 -284V1212C552 1213.1 551.105 1214 550 1214H-946C-947.105 1214 -948 1213.1 -948 1212V-284Z" fill="white"/>
+<path d="M-946 -286V-285H550V-286V-287H-946V-286ZM552 -284H551V1212H552H553V-284H552ZM550 1214V1213H-946V1214V1215H550V1214ZM-948 1212H-947V-284H-948H-949V1212H-948ZM-946 1214V1213C-946.552 1213 -947 1212.55 -947 1212H-948H-949C-949 1213.66 -947.657 1215 -946 1215V1214ZM552 1212H551C551 1212.55 550.552 1213 550 1213V1214V1215C551.657 1215 553 1213.66 553 1212H552ZM550 -286V-285C550.552 -285 551 -284.552 551 -284H552H553C553 -285.657 551.657 -287 550 -287V-286ZM-946 -286V-287C-947.657 -287 -949 -285.657 -949 -284H-948H-947C-947 -284.552 -946.552 -285 -946 -285V-286Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Mobile-Phone-Alt">
+<rect x="-19.5" y="-53.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Verified" clip-path="url(#Mobile_Phone_Alt_clip0_6144_42120)">
+<path id="Vector" d="M18 20.25V3.75C18 2.92157 17.3284 2.25 16.5 2.25L7.5 2.25C6.67157 2.25 6 2.92157 6 3.75L6 20.25C6 21.0784 6.67157 21.75 7.5 21.75H16.5C17.3284 21.75 18 21.0784 18 20.25Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M9 5.25H15" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="Mobile_Phone_Alt_clip0_6144_42120">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

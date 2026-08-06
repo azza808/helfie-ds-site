@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Helfie Design System — V5 documentation site mirrored from Figma."
+    />
+    <title>Helfie Design System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- Cover (Figma 43:3) -->
+    <section class="cover" id="cover" aria-label="Cover">
+      <div class="cover__top">
+        <div class="cover__logo">
+          <a class="logo" href="#start" aria-label="Enter the design system">
+            <img
+              class="logo__mark"
+              src="assets/9c7986a030f38eafc7251c4cc3b1d099ad65a88d.svg"
+              alt=""
+            />
+            <img
+              class="logo__word"
+              src="assets/2d7dcf73a945b3ff9b8e620d2c83940c3a37617b.svg"
+              alt="Helfie"
+            />
+          </a>
+        </div>
+        <nav class="cover__contents" aria-label="Contents">
+          <p class="cover__contents-label">CONTENTS</p>
+          <a class="cover__index" href="#start"><span>01</span>Start here</a>
+          <a class="cover__index" href="#philosophy"><span>02</span>Philosophy</a>
+          <a class="cover__index" href="#principles"><span>03</span>Principles</a>
+          <a class="cover__index" href="#colour"><span>04</span>Foundations</a>
+          <a class="cover__index" href="#voice"><span>05</span>Voice &amp; tone</a>
+          <a class="cover__index" href="#button"><span>06</span>Button</a>
+          <a class="cover__index" href="#fields"><span>07</span>Fields</a>
+          <a class="cover__index" href="#chips"><span>08</span>Chips</a>
+        </nav>
+      </div>
+
+      <div>
+        <h1 class="cover__title">Helfie<br />Design System</h1>
+        <p class="cover__meta">2026 · Version 1.0</p>
+        <hr class="cover__rule" />
+        <div class="cover__proposition">
+          <p>
+            The shared language behind every Helfie surface — so the consumer app
+            and Helfie One feel like one product, built by one team.
+          </p>
+          <div class="cover__owner">
+            <p class="cover__owner-label">MAINTAINED BY</p>
+            <p class="cover__owner-name">Design · Helfie</p>
+          </div>
+        </div>
+        <a class="cover__cta" href="#start">Enter the system</a>
+      </div>
+    </section>
+
+    <!-- Docs shell -->
+    <div class="app" id="app">
+      <nav class="nav" id="nav" aria-label="Design system"></nav>
+      <main class="main" id="main"></main>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/icon-groups.js"></script>
+    <script src="js/icon-files.js"></script>
+    <script src="js/pages.js"></script>
+    <script src="js/live.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

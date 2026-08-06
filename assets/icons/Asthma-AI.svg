@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="AI Health Checks">
+<path d="M-764 -634C-764 -635.105 -763.105 -636 -762 -636H734C735.104 -636 736 -635.105 736 -634V862C736 863.104 735.105 864 734 864H-762C-763.105 864 -764 863.105 -764 862V-634Z" fill="white"/>
+<path d="M-762 -636V-635H734V-636V-637H-762V-636ZM736 -634H735V862H736H737V-634H736ZM734 864V863H-762V864V865H734V864ZM-764 862H-763V-634H-764H-765V862H-764ZM-762 864V863C-762.552 863 -763 862.552 -763 862H-764H-765C-765 863.657 -763.657 865 -762 865V864ZM736 862H735C735 862.552 734.552 863 734 863V864V865C735.657 865 737 863.657 737 862H736ZM734 -636V-635C734.552 -635 735 -634.552 735 -634H736H737C737 -635.657 735.657 -637 734 -637V-636ZM-762 -636V-637C-763.657 -637 -765 -635.657 -765 -634H-764H-763C-763 -634.552 -762.552 -635 -762 -635V-636Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Asthma-AI">
+<rect x="-19.5" y="-59.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<path id="Vector" d="M17.3633 16.1938L20.7748 16.1914V20.3264L17.3633 20.324" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M9.03551 7.05427L8.36326 3.8301C8.19299 3.01345 7.4063 2.47854 6.58425 2.62045L5.00106 2.89375C4.1328 3.04364 3.56449 3.88689 3.75144 4.74793L4.43163 7.88061" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M10.2578 6.86035L3.22559 8.07429L5.64019 19.195C5.94933 20.6188 7.20922 21.6345 8.66619 21.6345L17.3747 21.6344V14.8838L11.9321 14.8901L10.2578 6.86035Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M10.0947 18.8896V21.6335" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M13.5342 18.8896V21.6335" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>

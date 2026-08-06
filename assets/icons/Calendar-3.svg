@@ -1,0 +1,22 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Files &#38; Documents">
+<path d="M-856 -287C-856 -288.105 -855.105 -289 -854 -289H642C643.104 -289 644 -288.105 644 -287V1209C644 1210.1 643.105 1211 642 1211H-854C-855.105 1211 -856 1210.1 -856 1209V-287Z" fill="white"/>
+<path d="M-854 -289V-288H642V-289V-290H-854V-289ZM644 -287H643V1209H644H645V-287H644ZM642 1211V1210H-854V1211V1212H642V1211ZM-856 1209H-855V-287H-856H-857V1209H-856ZM-854 1211V1210C-854.552 1210 -855 1209.55 -855 1209H-856H-857C-857 1210.66 -855.657 1212 -854 1212V1211ZM644 1209H643C643 1209.55 642.552 1210 642 1210V1211V1212C643.657 1212 645 1210.66 645 1209H644ZM642 -289V-288C642.552 -288 643 -287.552 643 -287H644H645C645 -288.657 643.657 -290 642 -290V-289ZM-854 -289V-290C-855.657 -290 -857 -288.657 -857 -287H-856H-855C-855 -287.552 -854.552 -288 -854 -288V-289Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Calendar-3">
+<rect x="-19.5" y="-56.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Cycle_length">
+<path id="Vector" d="M3.96403 4.64648C3.57653 4.64648 3.20489 4.80041 2.93088 5.07443C2.65687 5.34844 2.50293 5.72008 2.50293 6.10759V19.988C2.50293 20.3756 2.65687 20.7472 2.93088 21.0212C3.20489 21.2952 3.57653 21.4492 3.96403 21.4492H20.0362C20.4236 21.4492 20.7953 21.2952 21.0693 21.0212C21.3433 20.7472 21.4973 20.3756 21.4973 19.988V6.10759C21.4973 5.72008 21.3433 5.34844 21.0693 5.07443C20.7953 4.80041 20.4236 4.64648 20.0362 4.64648H17.1139" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M6.88574 2.45508V6.83839" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M17.1143 2.45508V6.83839" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M6.88574 4.64648H14.1912" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M6.59961 14.0537H10.1996V18.2537H6.59961V14.0537Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M13.7998 10.4531V18.2531" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M10.2002 10.4531H17.4002V18.2531H10.2002V10.4531Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M10.2002 14.0537H17.4002" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,184 @@
+{
+  "updated": "2026-08-04",
+  "census": {
+    "16x16": 159,
+    "24x24": 121,
+    "32x32": 0
+  },
+  "done_count": 121,
+  "remaining_16": 159,
+  "remaining_total": 166,
+  "missing": [
+    "Add notes",
+    "All notes",
+    "Attachment",
+    "Photo",
+    "Quick Note",
+    "Record",
+    "Upload"
+  ],
+  "next": [
+    {
+      "name": "Data",
+      "id": "3296:10219"
+    },
+    {
+      "name": "Microchip",
+      "id": "3297:6413"
+    },
+    {
+      "name": "Globe-Man",
+      "id": "3297:7337"
+    },
+    {
+      "name": "Mobile-Phone-Alt",
+      "id": "3297:7874"
+    },
+    {
+      "name": "Medical-Device",
+      "id": "3297:7885"
+    },
+    {
+      "name": "Medical-Smart-Watch",
+      "id": "3297:7896"
+    },
+    {
+      "name": "Smart-Watch-Download",
+      "id": "3297:7909"
+    },
+    {
+      "name": "Smart-Watch",
+      "id": "3297:7924"
+    },
+    {
+      "name": "Sparkle-Solid",
+      "id": "3331:5384"
+    },
+    {
+      "name": "Memory",
+      "id": "3297:7173"
+    },
+    {
+      "name": "Sparkle-Stroke",
+      "id": "3297:5894"
+    },
+    {
+      "name": "Token",
+      "id": "9047:37985"
+    },
+    {
+      "name": "File",
+      "id": "3297:5753"
+    },
+    {
+      "name": "File-Alt",
+      "id": "3297:5740"
+    },
+    {
+      "name": "Gallery",
+      "id": "3297:5797"
+    },
+    {
+      "name": "Calendar-1",
+      "id": "3297:7753"
+    },
+    {
+      "name": "Calendar-2",
+      "id": "3297:7695"
+    },
+    {
+      "name": "Calendar-3",
+      "id": "3297:7732"
+    },
+    {
+      "name": "Image-Locked",
+      "id": "3296:10604"
+    },
+    {
+      "name": "File-Question-Mark",
+      "id": "3296:10615"
+    },
+    {
+      "name": "Journal",
+      "id": "3296:10638"
+    },
+    {
+      "name": "Task-List-Pen",
+      "id": "3296:10658"
+    },
+    {
+      "name": "Terms-Of-Use",
+      "id": "3296:10667"
+    },
+    {
+      "name": "File-Medical",
+      "id": "3892:9875"
+    },
+    {
+      "name": "Calendar-Refresh",
+      "id": "3297:7657"
+    },
+    {
+      "name": "Attachment",
+      "id": "9014:33679"
+    },
+    {
+      "name": "Photo",
+      "id": "9014:33663"
+    },
+    {
+      "name": "Add notes",
+      "id": "9031:36812"
+    },
+    {
+      "name": "All notes",
+      "id": "9031:36798"
+    },
+    {
+      "name": "DNA",
+      "id": "3297:6089"
+    },
+    {
+      "name": "Bone",
+      "id": "3296:10330"
+    },
+    {
+      "name": "DNA-Alt",
+      "id": "3296:10337"
+    },
+    {
+      "name": "Nervous_system",
+      "id": "3296:10402"
+    },
+    {
+      "name": "Eye",
+      "id": "3297:6754"
+    },
+    {
+      "name": "Eye-Checkup-Cross",
+      "id": "3297:6763"
+    },
+    {
+      "name": "Eye-Alt",
+      "id": "3297:6774"
+    },
+    {
+      "name": "Stomach-Alt",
+      "id": "3297:6802"
+    },
+    {
+      "name": "Heart-Charging",
+      "id": "3297:6826"
+    },
+    {
+      "name": "Heart",
+      "id": "3297:6835"
+    },
+    {
+      "name": "Heart-Alt",
+      "id": "3297:6866"
+    }
+  ],
+  "rate_limited": true,
+  "note": "Stopped on Figma MCP rate limit during wave 2. Resume with download_assets + curl apply when limit resets."
+}

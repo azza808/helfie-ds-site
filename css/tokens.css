@@ -1,0 +1,143 @@
+/**
+ * Helfie Design System — CSS custom properties
+ * Sourced from Figma Component Library 2026 variables (audited 2026-07-30).
+ * Figma remains the source of truth; adjust values here only after a library change.
+ */
+
+:root {
+  /* ——— Colour / Surfaces ——— */
+  --ds-colour-fill-accent: #0537ff;
+  --ds-colour-fill-accent-subtle: #f2f6ff;
+  --ds-colour-fill-neutral: #ffffff;
+  --ds-colour-fill-neutral-subtle: #f5f5f5;
+  --ds-colour-fill-success: #cfffe0;
+  --ds-colour-fill-warning: #ffedd5;
+  --ds-colour-fill-error: #fee2e2;
+  --ds-colour-fill-inverse-neutral-strong: #111111;
+  --ds-colour-fill-inverse-neutral-subtle: #666666;
+  --ds-colour-translucent-neutral-strong: #ffffffcc;
+  --ds-colour-translucent-neutral-subtle: #ffffff66;
+  --ds-colour-translucent-inverse-subtle: #11111166;
+
+  /* ——— Colour / Text ——— */
+  --ds-colour-text-primary: #111111;
+  --ds-colour-text-secondary: #3d3d3d;
+  --ds-colour-text-tertiary: #666666;
+  --ds-colour-text-disabled: #666666;
+  --ds-colour-text-emphasis: #0537ff;
+  --ds-colour-text-inverse-primary: #ffffff;
+  --ds-colour-text-guidance: #b8b8b8;
+  --ds-colour-text-success: #15803d;
+  --ds-colour-text-warning: #c2410c;
+  --ds-colour-text-error: #b91c1c;
+
+  /* ——— Colour / Status ——— */
+  --ds-colour-status-success-default: #00c448;
+  --ds-colour-status-error-default: #dc2626;
+
+  /* ——— Colour / Border ——— */
+  --ds-colour-border-default: #d1d1d1;
+  --ds-colour-border-subtle: #e5e5e5;
+  --ds-colour-border-focus-default: #0537ff;
+  --ds-colour-border-success: #00c448;
+
+  /* ——— Colour / Iconography ——— */
+  --ds-colour-icon-primary: #111111;
+  --ds-colour-icon-inverse-primary: #ffffff;
+
+  /* ——— Colour / Guides (Figma paint style “Guide”) ——— */
+  --ds-colour-guides: #ff00ff;
+
+  /* ——— Spacing (padding / margin scale) ——— */
+  --ds-spacing-none: 0;
+  --ds-spacing-2xs: 2px;
+  --ds-spacing-xs: 4px;
+  --ds-spacing-sm: 8px;
+  --ds-spacing-md: 12px;
+  --ds-spacing-lg: 16px;
+  --ds-spacing-xl: 24px;
+  --ds-spacing-2xl: 32px;
+  --ds-spacing-3xl: 48px;
+  --ds-spacing-4xl: 64px;
+  --ds-spacing-5xl: 128px;
+
+  /* ——— Corner radius ——— */
+  --ds-radius-none: 0;
+  --ds-radius-2xs: 4px;
+  --ds-radius-xs: 8px;
+  --ds-radius-sm: 12px;
+  --ds-radius-md: 16px;
+  --ds-radius-lg: 24px;
+  --ds-radius-xl: 32px;
+  --ds-radius-full: 999px;
+
+  /* ——— Elevation ——— */
+  --ds-elevation-stacked: 0 0 8px #1111111f;
+  --ds-elevation-surface: 0 2px 8px #1111110f;
+  --ds-elevation-floating: 0 4px 24px #1111111f;
+  --ds-material-frosted: 24px;
+
+  /* ——— Typography ——— */
+  --ds-font-family: "Ubuntu", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ds-font-weight-regular: 400;
+  --ds-font-weight-medium: 500;
+  --ds-letter-spacing-default: 0;
+  --ds-letter-spacing-condense: -0.1px;
+
+  --ds-font-size-caption: 12px;
+  --ds-line-height-caption: 16px;
+  --ds-font-size-label-sm: 14px;
+  --ds-line-height-label-sm: 16px;
+  --ds-font-size-label-md: 16px;
+  --ds-line-height-label-md: 20px;
+  --ds-font-size-body-sm: 14px;
+  --ds-line-height-body-sm: 20px;
+  --ds-font-size-body-md: 16px;
+  --ds-line-height-body-md: 22px;
+
+  /* ——— Component sizing (Button set 5943:43143) ——— */
+  --ds-button-height-xl: 56px; /* Size=Large */
+  --ds-button-height-lg: 48px; /* Size=Medium */
+  --ds-button-height-md: 40px; /* Size=Small */
+  --ds-button-height-sm: 32px; /* Size=XSmall */
+
+  /* ——— Chip indicators (Chip set 6398:3932) ——— */
+  --ds-colour-status-concerning-default: #f97316;
+
+  /* ——— Avatar fill (User Avatar 7370:8312) — no semantic token name in library fetch ——— */
+  --ds-colour-fill-avatar: #cbdafe;
+
+  /* ——— Tile / menu accent border (measured #a3bfff) ——— */
+  --ds-colour-border-accent-subtle: #a3bfff;
+
+  /* ——— Toast type borders (Toast set) ——— */
+  --ds-colour-border-toast-success: #00c448;
+  --ds-colour-border-toast-error: #dc2626;
+  --ds-colour-border-toast-warning: #f97316;
+  --ds-colour-border-toast-info: #0537ff;
+
+  /* ——— Badge AI gradient (Status=AI linear stops) ——— */
+  --ds-colour-fill-ai-start: #fff1f3;
+  --ds-colour-fill-ai-end: #ece3ff;
+
+  /* ——— Elevation from Toast / Modal / Dropdown (measured) ——— */
+  --ds-elevation-toast: 0 4px 24px rgba(17, 17, 17, 0.12);
+  --ds-elevation-modal: 0 1px 2px rgba(0, 0, 0, 0.16), 0 4px 24px rgba(0, 0, 0, 0.08);
+  --ds-elevation-menu: 0 4px 6px rgba(0, 0, 0, 0.08);
+
+  /* ——— Icon geometry exported from the library (used as CSS masks, so the
+         paths carry shape only — colour comes from the component). ——— */
+
+  /* Icon_Information-Stroke 24 (Info panel 7181:2106) */
+  --ds-icon-information: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.25 11.25C11.4489 11.25 11.6397 11.329 11.7803 11.4697C11.921 11.6103 12 11.8011 12 12V15.75C12 15.9489 12.079 16.1397 12.2197 16.2803C12.3603 16.421 12.5511 16.5 12.75 16.5' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.625 9C12.2463 9 12.75 8.49632 12.75 7.875C12.75 7.25368 12.2463 6.75 11.625 6.75C11.0037 6.75 10.5 7.25368 10.5 7.875C10.5 8.49632 11.0037 9 11.625 9Z' fill='black'/%3E%3C/svg%3E");
+
+  /* Icon_Right 20 (Info panel Slimline chevron) */
+  --ds-icon-chevron-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M6.66585 16.6663L13.3325 9.99959L6.66585 3.33293' stroke='black' stroke-width='1.25' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+
+  /* Checkbox tick vector 10×6.96 @ stroke 2 (Checkbox 5950:43645 State=Selected) */
+  --ds-icon-check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='9' viewBox='0 0 12 9' fill='none'%3E%3Cpath d='M1 4.91304L4.04348 7.95652L11 1' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+
+  /* Guest avatar Union (User Avatar 7370:8312 User type=Guest user) — the vector
+     measures 23.79×24.16, so the viewBox is sized to the path, not rounded to 24. */
+  --ds-icon-avatar-guest: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23.792 24.1602' fill='none'%3E%3Cpath d='M11.8965 13.2803C17.7461 13.2803 22.6293 15.6722 23.792 18.8584C20.8632 22.1128 16.6194 24.1602 11.8965 24.1602C7.17333 24.1602 2.92877 22.1131 0 18.8584C1.16253 15.672 6.04666 13.2803 11.8965 13.2803Z' fill='black'/%3E%3Cpath d='M11.8965 0C15.0775 5.66911e-06 17.6561 2.57877 17.6562 5.75977C17.6562 8.94092 15.0776 11.5205 11.8965 11.5205C8.71532 11.5205 6.13672 8.94093 6.13672 5.75977C6.13691 2.57877 8.71544 0 11.8965 0Z' fill='black'/%3E%3C/svg%3E");
+}

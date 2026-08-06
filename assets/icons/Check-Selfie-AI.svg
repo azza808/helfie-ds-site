@@ -1,0 +1,28 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="AI Health Checks">
+<path d="M-1132 -280C-1132 -281.105 -1131.1 -282 -1130 -282H366C367.104 -282 368 -281.105 368 -280V1216C368 1217.1 367.105 1218 366 1218H-1130C-1131.1 1218 -1132 1217.1 -1132 1216V-280Z" fill="white"/>
+<path d="M-1130 -282V-281H366V-282V-283H-1130V-282ZM368 -280H367V1216H368H369V-280H368ZM366 1218V1217H-1130V1218V1219H366V1218ZM-1132 1216H-1131V-280H-1132H-1133V1216H-1132ZM-1130 1218V1217C-1130.55 1217 -1131 1216.55 -1131 1216H-1132H-1133C-1133 1217.66 -1131.66 1219 -1130 1219V1218ZM368 1216H367C367 1216.55 366.552 1217 366 1217V1218V1219C367.657 1219 369 1217.66 369 1216H368ZM366 -282V-281C366.552 -281 367 -280.552 367 -280H368H369C369 -281.657 367.657 -283 366 -283V-282ZM-1130 -282V-283C-1131.66 -283 -1133 -281.657 -1133 -280H-1132H-1131C-1131 -280.552 -1130.55 -281 -1130 -281V-282Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Check-Selfie-AI">
+<rect x="-19.5" y="-49.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M" clip-path="url(#Check_Selfie_AI_clip0_6144_42120)">
+<path id="Vector" d="M16.8729 18.2305H6.48828" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M12.0264 5.07715H15.6374C16.1542 5.08733 16.6462 5.30061 17.0069 5.67083C17.3677 6.04105 17.5681 6.53842 17.5648 7.0553V14.7251" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M17.5209 20.736C17.4475 21.1868 17.2194 21.598 16.8758 21.8988C16.5321 22.1997 16.0944 22.3715 15.6378 22.3846H8.4C7.88374 22.3761 7.39199 22.163 7.03282 21.792C6.67365 21.4211 6.47647 20.9227 6.48462 20.4065V12" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M1.64258 5.07715H3.02719" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M8.56528 5.07715H7.18066" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M5.10352 7.1543V8.53891" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M5.10352 1.61523V2.99985" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M20.2933 22.384L17.561 20.7695C17.3153 20.6011 17.121 20.3679 16.9996 20.0958C16.8783 19.8237 16.8345 19.5234 16.8733 19.228V17.5388L15.9013 16.5178C15.7731 16.3899 15.675 16.2352 15.6138 16.0647C15.5527 15.8943 15.5302 15.7124 15.5478 15.5322C15.5655 15.3519 15.6229 15.1779 15.716 15.0226C15.809 14.8672 15.9354 14.7345 16.0859 14.6338C16.3214 14.4771 16.6039 14.4068 16.8854 14.4347C17.1669 14.4626 17.4301 14.5871 17.6302 14.7871L19.0712 16.228" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M17.5654 8.25293L20.9457 12.9939C21.4488 13.6982 21.7192 14.5421 21.7193 15.4077V17.4172C21.7194 17.9955 21.9491 18.55 22.358 18.9588" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M9.65723 10.9612C9.65723 11.6038 9.91251 12.2201 10.3669 12.6745C10.8213 13.129 11.4377 13.3842 12.0803 13.3842C12.7229 13.3842 13.3393 13.129 13.7937 12.6745C14.2481 12.2201 14.5034 11.6038 14.5034 10.9612C14.5034 10.3185 14.2481 9.7022 13.7937 9.24779C13.3393 8.79337 12.7229 8.53809 12.0803 8.53809C11.4377 8.53809 10.8213 8.79337 10.3669 9.24779C9.91251 9.7022 9.65723 10.3185 9.65723 10.9612Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M16.8732 18.231H7.92676C7.92676 17.1293 8.36439 16.0728 9.14339 15.2938C9.92239 14.5148 10.9789 14.0771 12.0806 14.0771" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="Check_Selfie_AI_clip0_6144_42120">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Human Body">
+<path d="M-764.5 -796C-764.5 -797.105 -763.605 -798 -762.5 -798H733.5C734.604 -798 735.5 -797.105 735.5 -796V700C735.5 701.104 734.605 702 733.5 702H-762.5C-763.605 702 -764.5 701.105 -764.5 700V-796Z" fill="white"/>
+<path d="M-762.5 -798V-797H733.5V-798V-799H-762.5V-798ZM735.5 -796H734.5V700H735.5H736.5V-796H735.5ZM733.5 702V701H-762.5V702V703H733.5V702ZM-764.5 700H-763.5V-796H-764.5H-765.5V700H-764.5ZM-762.5 702V701C-763.052 701 -763.5 700.552 -763.5 700H-764.5H-765.5C-765.5 701.657 -764.157 703 -762.5 703V702ZM735.5 700H734.5C734.5 700.552 734.052 701 733.5 701V702V703C735.157 703 736.5 701.657 736.5 700H735.5ZM733.5 -798V-797C734.052 -797 734.5 -796.552 734.5 -796H735.5H736.5C736.5 -797.657 735.157 -799 733.5 -799V-798ZM-762.5 -798V-799C-764.157 -799 -765.5 -797.657 -765.5 -796H-764.5H-763.5C-763.5 -796.552 -763.052 -797 -762.5 -797V-798Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Eye-Alt">
+<rect x="-20" y="-49.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Vision">
+<path id="Vector" d="M2.9375 8.22559L4.64583 9.93392" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M8.06445 5.00586L9.08944 7.14128" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M11.9994 18.6614C18.4056 18.6614 21.3952 12.6822 21.3952 12.6822C21.3952 12.6822 18.4056 6.70312 11.9994 6.70312C5.5931 6.70312 2.60352 12.6822 2.60352 12.6822C2.60352 12.6822 5.5931 18.6614 11.9994 18.6614Z" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M21.0618 8.22559L19.3535 9.93392" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M15.9352 5.00586L14.9102 7.14128" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M12 15.1602C13.4153 15.1602 14.5625 14.0129 14.5625 12.5977C14.5625 11.1824 13.4153 10.0352 12 10.0352C10.5847 10.0352 9.4375 11.1824 9.4375 12.5977C9.4375 14.0129 10.5847 15.1602 12 15.1602Z" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Action">
+<path d="M-120 -632C-120 -633.105 -119.105 -634 -118 -634H1378C1379.1 -634 1380 -633.105 1380 -632V864C1380 865.104 1379.1 866 1378 866H-118C-119.105 866 -120 865.105 -120 864V-632Z" fill="white"/>
+<path d="M-118 -634V-633H1378V-634V-635H-118V-634ZM1380 -632H1379V864H1380H1381V-632H1380ZM1378 866V865H-118V866V867H1378V866ZM-120 864H-119V-632H-120H-121V864H-120ZM-118 866V865C-118.552 865 -119 864.552 -119 864H-120H-121C-121 865.657 -119.657 867 -118 867V866ZM1380 864H1379C1379 864.552 1378.55 865 1378 865V866V867C1379.66 867 1381 865.657 1381 864H1380ZM1378 -634V-633C1378.55 -633 1379 -632.552 1379 -632H1380H1381C1381 -633.657 1379.66 -635 1378 -635V-634ZM-118 -634V-635C-119.657 -635 -121 -633.657 -121 -632H-120H-119C-119 -632.552 -118.552 -633 -118 -633V-634Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Sort">
+<rect x="-19.5" y="-55.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Frame">
+<path id="Vector 9" d="M13 17L8 22L3 17M8 22L8 7" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 10" d="M21 7L16 2L11 7M16 2L16 17" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

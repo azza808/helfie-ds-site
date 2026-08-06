@@ -1,0 +1,20 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="AI Health Checks">
+<path d="M-488 -280C-488 -281.105 -487.105 -282 -486 -282H1010C1011.1 -282 1012 -281.105 1012 -280V1216C1012 1217.1 1011.1 1218 1010 1218H-486C-487.105 1218 -488 1217.1 -488 1216V-280Z" fill="white"/>
+<path d="M-486 -282V-281H1010V-282V-283H-486V-282ZM1012 -280H1011V1216H1012H1013V-280H1012ZM1010 1218V1217H-486V1218V1219H1010V1218ZM-488 1216H-487V-280H-488H-489V1216H-488ZM-486 1218V1217C-486.552 1217 -487 1216.55 -487 1216H-488H-489C-489 1217.66 -487.657 1219 -486 1219V1218ZM1012 1216H1011C1011 1216.55 1010.55 1217 1010 1217V1218V1219C1011.66 1219 1013 1217.66 1013 1216H1012ZM1010 -282V-281C1010.55 -281 1011 -280.552 1011 -280H1012H1013C1013 -281.657 1011.66 -283 1010 -283V-282ZM-486 -282V-283C-487.657 -283 -489 -281.657 -489 -280H-488H-487C-487 -280.552 -486.552 -281 -486 -281V-282Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Check-Pain-AI">
+<rect x="-19.5" y="-49.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Frame">
+<path id="Vector" d="M14.8301 11.1295L17.5401 10.1895L17.8501 12.2295L20.8801 11.2995" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M12.4707 9.14902L13.0207 6.32902L14.9407 7.07902L15.6407 3.99902" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M9.57898 10.2109L7.40898 8.33086L9.01898 7.04086L6.70898 4.88086" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M9.05 13.2406L6.33 14.1806L6.03 12.1406L3 13.0706" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M11.4105 15.2109L10.8605 18.0309L8.94047 17.2809L8.23047 20.3709" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M14.3008 14.1592L16.4708 16.0392L14.8608 17.3292L17.1708 19.4792" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

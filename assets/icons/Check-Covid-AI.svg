@@ -1,0 +1,37 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="AI Health Checks">
+<path d="M-212 -452C-212 -453.105 -211.105 -454 -210 -454H1286C1287.1 -454 1288 -453.105 1288 -452V1044C1288 1045.1 1287.1 1046 1286 1046H-210C-211.105 1046 -212 1045.1 -212 1044V-452Z" fill="white"/>
+<path d="M-210 -454V-453H1286V-454V-455H-210V-454ZM1288 -452H1287V1044H1288H1289V-452H1288ZM1286 1046V1045H-210V1046V1047H1286V1046ZM-212 1044H-211V-452H-212H-213V1044H-212ZM-210 1046V1045C-210.552 1045 -211 1044.55 -211 1044H-212H-213C-213 1045.66 -211.657 1047 -210 1047V1046ZM1288 1044H1287C1287 1044.55 1286.55 1045 1286 1045V1046V1047C1287.66 1047 1289 1045.66 1289 1044H1288ZM1286 -454V-453C1286.55 -453 1287 -452.552 1287 -452H1288H1289C1289 -453.657 1287.66 -455 1286 -455V-454ZM-210 -454V-455C-211.657 -455 -213 -453.657 -213 -452H-212H-211C-211 -452.552 -210.552 -453 -210 -453V-454Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Check-Covid-AI">
+<rect x="-19.5" y="-49.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="covid">
+<path id="Vector" d="M12.0013 19.3336C16.0514 19.3336 19.3346 16.0504 19.3346 12.0003C19.3346 7.95023 16.0514 4.66699 12.0013 4.66699C7.95121 4.66699 4.66797 7.95023 4.66797 12.0003C4.66797 16.0504 7.95121 19.3336 12.0013 19.3336Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M9.16066 10.3955C8.75156 10.3955 8.41992 10.0639 8.41992 9.6548C8.41992 9.2457 8.75156 8.91406 9.16066 8.91406" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M9.15965 10.3955C9.56875 10.3955 9.90039 10.0639 9.90039 9.6548C9.90039 9.2457 9.56875 8.91406 9.15965 8.91406" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M13.5564 2.00098H12.0009H10.4453" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M12 2.00098V4.66764" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M6.02918 3.8291L4.92963 4.92865L3.83008 6.02821" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M4.92969 4.92969L6.81502 6.81502" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M2 10.4443V11.9999V13.5554" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M2 12H4.66666" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M3.83008 17.9707L4.92963 19.0703L6.02918 20.1698" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M4.92969 19.0709L6.81502 17.1855" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M10.4453 21.999H12.0009H13.5564" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" d="M12 21.9997V19.333" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" d="M17.9727 20.1698L19.0722 19.0703L20.1718 17.9707" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_15" d="M19.0709 19.0709L17.1855 17.1855" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_16" d="M22 13.5554V11.9999V10.4443" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_17" d="M22.0006 12H19.334" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_18" d="M20.1718 6.02821L19.0722 4.92865L17.9727 3.8291" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_19" d="M19.0709 4.92969L17.1855 6.81502" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Ellipse 5" d="M10.3448 14.7404C10.0994 14.7404 9.90039 14.5415 9.90039 14.296C9.90039 14.0505 10.0994 13.8516 10.3448 13.8516" stroke="#111111" stroke-width="1.5"/>
+<path id="Ellipse 6" d="M10.3446 14.7404C10.5901 14.7404 10.7891 14.5415 10.7891 14.296C10.7891 14.0505 10.5901 13.8516 10.3446 13.8516" stroke="#111111" stroke-width="1.5"/>
+<path id="Ellipse 5_2" d="M13.9015 10.7893C13.656 10.7893 13.457 10.5903 13.457 10.3448C13.457 10.0994 13.656 9.90039 13.9015 9.90039" stroke="#111111" stroke-width="1.5"/>
+<path id="Ellipse 6_2" d="M13.9013 10.7893C14.1467 10.7893 14.3457 10.5903 14.3457 10.3448C14.3457 10.0994 14.1467 9.90039 13.9013 9.90039" stroke="#111111" stroke-width="1.5"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

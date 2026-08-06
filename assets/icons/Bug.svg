@@ -1,0 +1,28 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Technology">
+<path d="M-212 -284C-212 -285.105 -211.105 -286 -210 -286H1286C1287.1 -286 1288 -285.105 1288 -284V1212C1288 1213.1 1287.1 1214 1286 1214H-210C-211.105 1214 -212 1213.1 -212 1212V-284Z" fill="white"/>
+<path d="M-210 -286V-285H1286V-286V-287H-210V-286ZM1288 -284H1287V1212H1288H1289V-284H1288ZM1286 1214V1213H-210V1214V1215H1286V1214ZM-212 1212H-211V-284H-212H-213V1212H-212ZM-210 1214V1213C-210.552 1213 -211 1212.55 -211 1212H-212H-213C-213 1213.66 -211.657 1215 -210 1215V1214ZM1288 1212H1287C1287 1212.55 1286.55 1213 1286 1213V1214V1215C1287.66 1215 1289 1213.66 1289 1212H1288ZM1286 -286V-285C1286.55 -285 1287 -284.552 1287 -284H1288H1289C1289 -285.657 1287.66 -287 1286 -287V-286ZM-210 -286V-287C-211.657 -287 -213 -285.657 -213 -284H-212H-211C-211 -284.552 -210.552 -285 -210 -285V-286Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Bug">
+<rect x="-19.5" y="-53.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="BugBeetle" clip-path="url(#Bug_clip0_6144_42120)">
+<path id="Vector" d="M13.877 18.373C17.6049 18.373 20.627 15.351 20.627 11.623C20.627 7.89512 17.6049 4.87305 13.877 4.87305L9.37695 4.87305C5.64903 4.87305 2.62695 7.89512 2.62695 11.623C2.62695 15.351 5.64903 18.373 9.37695 18.373L13.877 18.373Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M10.877 18.373L10.877 20.623" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M10.877 2.62305L10.877 4.87305" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M7.87695 2.62305L7.87695 5.03992" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M13.877 2.62305L13.877 20.623" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M10.877 11.623L2.62695 11.623" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M7.87695 18.209L7.87695 20.6259" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M21.377 18.373L19.0098 16.0059" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M21.377 4.87305L19.0098 7.24023" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="Bug_clip0_6144_42120">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="AI Health Checks">
+<path d="M-396 -452C-396 -453.105 -395.105 -454 -394 -454H1102C1103.1 -454 1104 -453.105 1104 -452V1044C1104 1045.1 1103.1 1046 1102 1046H-394C-395.105 1046 -396 1045.1 -396 1044V-452Z" fill="white"/>
+<path d="M-394 -454V-453H1102V-454V-455H-394V-454ZM1104 -452H1103V1044H1104H1105V-452H1104ZM1102 1046V1045H-394V1046V1047H1102V1046ZM-396 1044H-395V-452H-396H-397V1044H-396ZM-394 1046V1045C-394.552 1045 -395 1044.55 -395 1044H-396H-397C-397 1045.66 -395.657 1047 -394 1047V1046ZM1104 1044H1103C1103 1044.55 1102.55 1045 1102 1045V1046V1047C1103.66 1047 1105 1045.66 1105 1044H1104ZM1102 -454V-453C1102.55 -453 1103 -452.552 1103 -452H1104H1105C1105 -453.657 1103.66 -455 1102 -455V-454ZM-394 -454V-455C-395.657 -455 -397 -453.657 -397 -452H-396H-395C-395 -452.552 -394.552 -453 -394 -453V-454Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Check-Tongue-AI">
+<rect x="-19.5" y="-49.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<path id="Vector" d="M3.79688 8H20.2017" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M12 8V14.8749" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M11.998 20.0004C14.8499 20.0004 17.1619 17.6884 17.1619 14.8365V8H6.83398V14.8365C6.83398 17.6884 9.14597 20.0004 11.998 20.0004Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>

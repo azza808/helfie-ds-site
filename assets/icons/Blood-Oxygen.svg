@@ -1,0 +1,18 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Health">
+<path d="M-1224 -462C-1224 -463.105 -1223.1 -464 -1222 -464H274C275.104 -464 276 -463.105 276 -462V1034C276 1035.1 275.105 1036 274 1036H-1222C-1223.1 1036 -1224 1035.1 -1224 1034V-462Z" fill="white"/>
+<path d="M-1222 -464V-463H274V-464V-465H-1222V-464ZM276 -462H275V1034H276H277V-462H276ZM274 1036V1035H-1222V1036V1037H274V1036ZM-1224 1034H-1223V-462H-1224H-1225V1034H-1224ZM-1222 1036V1035C-1222.55 1035 -1223 1034.55 -1223 1034H-1224H-1225C-1225 1035.66 -1223.66 1037 -1222 1037V1036ZM276 1034H275C275 1034.55 274.552 1035 274 1035V1036V1037C275.657 1037 277 1035.66 277 1034H276ZM274 -464V-463C274.552 -463 275 -462.552 275 -462H276H277C277 -463.657 275.657 -465 274 -465V-464ZM-1222 -464V-465C-1223.66 -465 -1225 -463.657 -1225 -462H-1224H-1223C-1223 -462.552 -1222.55 -463 -1222 -463V-464Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Blood-Oxygen">
+<rect x="-19.5" y="-59.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Blood Oxygen">
+<path id="Vector" d="M5.5 12H18" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M5.5 15H18" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M6.75 18L17.25 18" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M18.56 14.22C18.56 17.96 15.53 21 11.78 21C8.03 21 5 17.96 5 14.22C5 8.09 11.78 3 11.78 3C11.78 3 18.56 8.09 18.56 14.22Z" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

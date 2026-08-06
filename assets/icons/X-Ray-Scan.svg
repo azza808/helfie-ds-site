@@ -1,0 +1,25 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Health">
+<path d="M-856.5 -630C-856.5 -631.105 -855.605 -632 -854.5 -632H641.5C642.604 -632 643.5 -631.105 643.5 -630V866C643.5 867.104 642.605 868 641.5 868H-854.5C-855.605 868 -856.5 867.105 -856.5 866V-630Z" fill="white"/>
+<path d="M-854.5 -632V-631H641.5V-632V-633H-854.5V-632ZM643.5 -630H642.5V866H643.5H644.5V-630H643.5ZM641.5 868V867H-854.5V868V869H641.5V868ZM-856.5 866H-855.5V-630H-856.5H-857.5V866H-856.5ZM-854.5 868V867C-855.052 867 -855.5 866.552 -855.5 866H-856.5H-857.5C-857.5 867.657 -856.157 869 -854.5 869V868ZM643.5 866H642.5C642.5 866.552 642.052 867 641.5 867V868V869C643.157 869 644.5 867.657 644.5 866H643.5ZM641.5 -632V-631C642.052 -631 642.5 -630.552 642.5 -630H643.5H644.5C644.5 -631.657 643.157 -633 641.5 -633V-632ZM-854.5 -632V-633C-856.157 -633 -857.5 -631.657 -857.5 -630H-856.5H-855.5C-855.5 -630.552 -855.052 -631 -854.5 -631V-632Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_X-Ray-Scan">
+<rect x="-20" y="-55.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Scan">
+<path id="Vector" d="M10.676 11.274C8.19896 11.274 6.23438 9.22396 6.23438 6.83229C6.23438 4.35521 8.28437 2.39062 10.676 2.39062V11.274Z" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M2.39062 21.6101C2.39062 16.9976 6.14896 13.2393 10.7615 13.2393V21.6101" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M13.2383 2.39062C16.057 2.39062 18.3633 4.69688 18.3633 7.51562C18.3633 8.36979 17.6799 9.05312 16.8258 9.05312H16.6549C16.1424 9.05312 15.8008 9.39479 15.8008 9.90729V11.4448" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M13.3242 10.4189V11.4439" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M14.3495 6.40612C14.2552 6.40612 14.1787 6.32963 14.1787 6.23528C14.1787 6.14093 14.2552 6.06445 14.3495 6.06445" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M14.3486 6.40612C14.443 6.40612 14.5195 6.32963 14.5195 6.23528C14.5195 6.14093 14.443 6.06445 14.3486 6.06445" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M13.2383 16.4854H15.6299" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M13.2383 13.9215H18.7049L19.8154 12.8965" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M13.2383 19.0459H16.9112" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M13.2383 21.6094H17.3383" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M19.6445 16.3135L21.6091 21.6093" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

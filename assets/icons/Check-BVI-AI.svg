@@ -1,0 +1,32 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="AI Health Checks">
+<path d="M-948 -280C-948 -281.105 -947.105 -282 -946 -282H550C551.104 -282 552 -281.105 552 -280V1216C552 1217.1 551.105 1218 550 1218H-946C-947.105 1218 -948 1217.1 -948 1216V-280Z" fill="white"/>
+<path d="M-946 -282V-281H550V-282V-283H-946V-282ZM552 -280H551V1216H552H553V-280H552ZM550 1218V1217H-946V1218V1219H550V1218ZM-948 1216H-947V-280H-948H-949V1216H-948ZM-946 1218V1217C-946.552 1217 -947 1216.55 -947 1216H-948H-949C-949 1217.66 -947.657 1219 -946 1219V1218ZM552 1216H551C551 1216.55 550.552 1217 550 1217V1218V1219C551.657 1219 553 1217.66 553 1216H552ZM550 -282V-281C550.552 -281 551 -280.552 551 -280H552H553C553 -281.657 551.657 -283 550 -283V-282ZM-946 -282V-283C-947.657 -283 -949 -281.657 -949 -280H-948H-947C-947 -280.552 -946.552 -281 -946 -281V-282Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Check-BVI-AI">
+<rect x="-19.5" y="-49.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M" clip-path="url(#Check_BVI_AI_clip0_6144_42120)">
+<g id="Frame">
+<path id="Vector" d="M2.20703 16.1656C2.20703 16.5121 2.34465 16.8443 2.58962 17.0893C2.83459 17.3343 3.16684 17.4719 3.51328 17.4719C3.85972 17.4719 4.19197 17.3343 4.43694 17.0893C4.68191 16.8443 4.81953 16.5121 4.81953 16.1656C4.81953 15.8192 4.68191 15.4869 4.43694 15.242C4.19197 14.997 3.85972 14.8594 3.51328 14.8594C3.16684 14.8594 2.83459 14.997 2.58962 15.242C2.34465 15.4869 2.20703 15.8192 2.20703 16.1656Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M3.51367 17.4717V21.3904" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M3.51367 14.8594V1.79688" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M19.1895 16.1656C19.1895 16.5121 19.3271 16.8443 19.572 17.0893C19.817 17.3343 20.1493 17.4719 20.4957 17.4719C20.8421 17.4719 21.1744 17.3343 21.4194 17.0893C21.6643 16.8443 21.802 16.5121 21.802 16.1656C21.802 15.8192 21.6643 15.4869 21.4194 15.242C21.1744 14.997 20.8421 14.8594 20.4957 14.8594C20.1493 14.8594 19.817 14.997 19.572 15.242C19.3271 15.4869 19.1895 15.8192 19.1895 16.1656Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M20.4941 17.4717V21.3904" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M20.4941 14.8594V1.79688" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M9.39258 7.02168C9.39258 7.71456 9.66782 8.37906 10.1578 8.869C10.6477 9.35893 11.3122 9.63418 12.0051 9.63418C12.698 9.63418 13.3625 9.35893 13.8524 8.869C14.3423 8.37906 14.6176 7.71456 14.6176 7.02168C14.6176 6.3288 14.3423 5.6643 13.8524 5.17436C13.3625 4.68442 12.698 4.40918 12.0051 4.40918C11.3122 4.40918 10.6477 4.68442 10.1578 5.17436C9.66782 5.6643 9.39258 6.3288 9.39258 7.02168Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M15.2695 14.2061C15.2695 13.34 14.9255 12.5093 14.3131 11.8969C13.7006 11.2845 12.87 10.9404 12.0039 10.9404C11.1378 10.9404 10.3072 11.2845 9.69476 11.8969C9.08234 12.5093 8.73828 13.34 8.73828 14.2061" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M10.0449 18.7783L10.698 21.3908H13.3105L13.9637 18.7783" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M7.43164 21.3906H16.5754" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M7.43164 16.166H8.73789" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M11.3516 16.166H12.6578" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" d="M15.2695 16.166H16.5758" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="Check_BVI_AI_clip0_6144_42120">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

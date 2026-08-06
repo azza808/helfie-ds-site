@@ -1,0 +1,24 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Health">
+<path d="M-115 -634C-115 -635.105 -114.105 -636 -113 -636H1383C1384.1 -636 1385 -635.105 1385 -634V862C1385 863.104 1384.1 864 1383 864H-113C-114.105 864 -115 863.105 -115 862V-634Z" fill="white"/>
+<path d="M-113 -636V-635H1383V-636V-637H-113V-636ZM1385 -634H1384V862H1385H1386V-634H1385ZM1383 864V863H-113V864V865H1383V864ZM-115 862H-114V-634H-115H-116V862H-115ZM-113 864V863C-113.552 863 -114 862.552 -114 862H-115H-116C-116 863.657 -114.657 865 -113 865V864ZM1385 862H1384C1384 862.552 1383.55 863 1383 863V864V865C1384.66 865 1386 863.657 1386 862H1385ZM1383 -636V-635C1383.55 -635 1384 -634.552 1384 -634H1385H1386C1386 -635.657 1384.66 -637 1383 -637V-636ZM-113 -636V-637C-114.657 -637 -116 -635.657 -116 -634H-115H-114C-114 -634.552 -113.552 -635 -113 -635V-636Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Sugar-Carbohydrate">
+<rect x="-14.5" y="-59.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Property 1=M">
+<path id="Vector" d="M2.39062 19.207V13.6016L7.19531 16.0039V21.6094L2.39062 19.207Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M2.39062 13.6016L7.19531 11.1992L12 13.6016" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M12 19.207V13.6016L7.19531 16.0039V21.6094L12 19.207Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M11.8672 10.5095V4.82617L16.7387 7.26191V12.9453L11.8672 10.5095Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M11.8672 4.82637L16.7387 2.39062L21.6102 4.82637" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M21.6098 10.5095V4.82617L16.7383 7.26191V12.9453L21.6098 10.5095Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M20.7118 16.6122C20.6175 16.6122 20.541 16.5357 20.541 16.4413C20.541 16.347 20.6175 16.2705 20.7118 16.2705" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector_8" d="M20.7109 16.6122C20.8053 16.6122 20.8818 16.5357 20.8818 16.4413C20.8818 16.347 20.8053 16.2705 20.7109 16.2705" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector_9" d="M19.8583 20.0292C19.7639 20.0292 19.6875 19.9527 19.6875 19.8583C19.6875 19.7639 19.7639 19.6875 19.8583 19.6875" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector_10" d="M19.8574 20.0292C19.9518 20.0292 20.0283 19.9527 20.0283 19.8583C20.0283 19.7639 19.9518 19.6875 19.8574 19.6875" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector_11" d="M16.4423 18.3212C16.3479 18.3212 16.2715 18.2447 16.2715 18.1503C16.2715 18.0559 16.3479 17.9795 16.4423 17.9795" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector_12" d="M16.4414 18.3212C16.5358 18.3212 16.6122 18.2447 16.6122 18.1503C16.6122 18.0559 16.5358 17.9795 16.4414 17.9795" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>

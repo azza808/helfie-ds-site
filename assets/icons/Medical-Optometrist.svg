@@ -1,0 +1,21 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Health">
+<path d="M-1040 -462C-1040 -463.105 -1039.1 -464 -1038 -464H458C459.104 -464 460 -463.105 460 -462V1034C460 1035.1 459.105 1036 458 1036H-1038C-1039.1 1036 -1040 1035.1 -1040 1034V-462Z" fill="white"/>
+<path d="M-1038 -464V-463H458V-464V-465H-1038V-464ZM460 -462H459V1034H460H461V-462H460ZM458 1036V1035H-1038V1036V1037H458V1036ZM-1040 1034H-1039V-462H-1040H-1041V1034H-1040ZM-1038 1036V1035C-1038.55 1035 -1039 1034.55 -1039 1034H-1040H-1041C-1041 1035.66 -1039.66 1037 -1038 1037V1036ZM460 1034H459C459 1034.55 458.552 1035 458 1035V1036V1037C459.657 1037 461 1035.66 461 1034H460ZM458 -464V-463C458.552 -463 459 -462.552 459 -462H460H461C461 -463.657 459.657 -465 458 -465V-464ZM-1038 -464V-465C-1039.66 -465 -1041 -463.657 -1041 -462H-1040H-1039C-1039 -462.552 -1038.55 -463 -1038 -463V-464Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Medical-Optometrist">
+<rect x="-19.5" y="-59.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Medical-Specialty-Optometrist">
+<path id="Vector" d="M10.8004 10.1998H9.60039C9.28213 10.1998 8.97691 10.0576 8.75186 9.8044C8.52682 9.55122 8.40039 9.20785 8.40039 8.8498V6.1498C8.40039 5.79176 8.52682 5.44838 8.75186 5.19521C8.97691 4.94204 9.28213 4.7998 9.60039 4.7998H10.8004" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M8.40039 7.7998H10.8004" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M16.2004 16.4804V20.3204C16.2004 20.6599 16.0682 20.9854 15.8329 21.2255C15.5977 21.4655 15.2786 21.6004 14.9458 21.6004H3.65494C3.32221 21.6004 3.00311 21.4655 2.76784 21.2255C2.53257 20.9854 2.40039 20.6599 2.40039 20.3204V3.68039C2.40039 3.34091 2.53257 3.01534 2.76784 2.77529C3.00311 2.53525 3.32221 2.40039 3.65494 2.40039H14.9458C15.2786 2.40039 15.5977 2.53525 15.8329 2.77529C16.0682 3.01534 16.2004 3.34091 16.2004 3.68039V6.24039" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M4.80078 12.5996H13.8008" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M13.8008 9L21.6008 16.2" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M7.80078 15V18" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M10.1992 15H12.5992L10.1992 18H12.5992" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

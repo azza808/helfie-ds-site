@@ -1,0 +1,22 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Human Body">
+<path d="M-120 -278C-120 -279.105 -119.105 -280 -118 -280H1378C1379.1 -280 1380 -279.105 1380 -278V1218C1380 1219.1 1379.1 1220 1378 1220H-118C-119.105 1220 -120 1219.1 -120 1218V-278Z" fill="white"/>
+<path d="M-118 -280V-279H1378V-280V-281H-118V-280ZM1380 -278H1379V1218H1380H1381V-278H1380ZM1378 1220V1219H-118V1220V1221H1378V1220ZM-120 1218H-119V-278H-120H-121V1218H-120ZM-118 1220V1219C-118.552 1219 -119 1218.55 -119 1218H-120H-121C-121 1219.66 -119.657 1221 -118 1221V1220ZM1380 1218H1379C1379 1218.55 1378.55 1219 1378 1219V1220V1221C1379.66 1221 1381 1219.66 1381 1218H1380ZM1378 -280V-279C1378.55 -279 1379 -278.552 1379 -278H1380H1381C1381 -279.657 1379.66 -281 1378 -281V-280ZM-118 -280V-281C-119.657 -281 -121 -279.657 -121 -278H-120H-119C-119 -278.552 -118.552 -279 -118 -279V-280Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_User-Medical-Doctor">
+<rect x="-19.5" y="-47.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Medical-personnel-doctor 4">
+<path id="Vector" d="M21.1118 14H12.2229C11.732 14 11.334 14.398 11.334 14.8889V21.1111C11.334 21.602 11.732 22 12.2229 22H21.1118C21.6027 22 22.0007 21.602 22.0007 21.1111V14.8889C22.0007 14.398 21.6027 14 21.1118 14Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M15.5569 11.334H17.7791C18.0148 11.334 18.2409 11.4276 18.4076 11.5943C18.5743 11.761 18.668 11.9871 18.668 12.2229V14.0007H14.668V12.2229C14.668 11.9871 14.7616 11.761 14.9283 11.5943C15.095 11.4276 15.3211 11.334 15.5569 11.334V11.334Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M16.668 16.667V19.3337" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M15.332 18H17.9987" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M2 16.6665C2.00068 15.6746 2.24715 14.6983 2.71738 13.825C3.18762 12.9516 3.86696 12.2084 4.69466 11.6617C5.52236 11.1151 6.47262 10.7821 7.46049 10.6925C8.44835 10.6029 9.44302 10.7595 10.3556 11.1483" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M4.83984 3.80566C5.40774 4.39446 6.08849 4.86275 6.84142 5.18255C7.59436 5.50236 8.40403 5.66712 9.22207 5.667C10.051 5.66766 10.8714 5.49887 11.6327 5.171" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M7.9987 9.33333C10.0237 9.33333 11.6654 7.69171 11.6654 5.66667C11.6654 3.64162 10.0237 2 7.9987 2C5.97365 2 4.33203 3.64162 4.33203 5.66667C4.33203 7.69171 5.97365 9.33333 7.9987 9.33333Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M8 10.667V16.667" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

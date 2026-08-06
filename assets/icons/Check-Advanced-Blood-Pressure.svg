@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="AI Health Checks">
+<path d="M-304 -620C-304 -621.105 -303.105 -622 -302 -622H1194C1195.1 -622 1196 -621.105 1196 -620V876C1196 877.104 1195.1 878 1194 878H-302C-303.105 878 -304 877.105 -304 876V-620Z" fill="white"/>
+<path d="M-302 -622V-621H1194V-622V-623H-302V-622ZM1196 -620H1195V876H1196H1197V-620H1196ZM1194 878V877H-302V878V879H1194V878ZM-304 876H-303V-620H-304H-305V876H-304ZM-302 878V877C-302.552 877 -303 876.552 -303 876H-304H-305C-305 877.657 -303.657 879 -302 879V878ZM1196 876H1195C1195 876.552 1194.55 877 1194 877V878V879C1195.66 879 1197 877.657 1197 876H1196ZM1194 -622V-621C1194.55 -621 1195 -620.552 1195 -620H1196H1197C1197 -621.657 1195.66 -623 1194 -623V-622ZM-302 -622V-623C-303.657 -623 -305 -621.657 -305 -620H-304H-303C-303 -620.552 -302.552 -621 -302 -621V-622Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Check-Advanced-Blood-Pressure">
+<rect x="-19.5" y="-45.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Advanced Blood Pressure">
+<path id="Vector" d="M17.9996 14.0364C17.9996 17.4675 15.2198 20.2564 11.7796 20.2564C8.3393 20.2564 5.55957 17.4675 5.55957 14.0364C5.55957 8.41275 11.7796 3.74316 11.7796 3.74316C11.7796 3.74316 17.9996 8.41275 17.9996 14.0364Z" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10"/>
+<path id="Vector_2" d="M17 3.75H20.5" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M18.75 2V5.5" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

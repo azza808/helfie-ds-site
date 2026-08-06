@@ -1,0 +1,18 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Files &#38; Documents">
+<path d="M-672 -287C-672 -288.105 -671.105 -289 -670 -289H826C827.104 -289 828 -288.105 828 -287V1209C828 1210.1 827.105 1211 826 1211H-670C-671.105 1211 -672 1210.1 -672 1209V-287Z" fill="white"/>
+<path d="M-670 -289V-288H826V-289V-290H-670V-289ZM828 -287H827V1209H828H829V-287H828ZM826 1211V1210H-670V1211V1212H826V1211ZM-672 1209H-671V-287H-672H-673V1209H-672ZM-670 1211V1210C-670.552 1210 -671 1209.55 -671 1209H-672H-673C-673 1210.66 -671.657 1212 -670 1212V1211ZM828 1209H827C827 1209.55 826.552 1210 826 1210V1211V1212C827.657 1212 829 1210.66 829 1209H828ZM826 -289V-288C826.552 -288 827 -287.552 827 -287H828H829C829 -288.657 827.657 -290 826 -290V-289ZM-670 -289V-290C-671.657 -290 -673 -288.657 -673 -287H-672H-671C-671 -287.552 -670.552 -288 -670 -288V-289Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Calendar-1">
+<rect x="-19.5" y="-56.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Calendar">
+<path id="Vector" d="M20.127 5.12402H3.87695C3.1866 5.12402 2.62695 5.68367 2.62695 6.37402V20.124C2.62695 20.8144 3.1866 21.374 3.87695 21.374H20.127C20.8173 21.374 21.377 20.8144 21.377 20.124V6.37402C21.377 5.68367 20.8173 5.12402 20.127 5.12402Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M2.62695 10.125H21.377" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M7.62695 7V2.625" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M16.377 7V2.625" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

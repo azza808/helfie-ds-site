@@ -1,0 +1,22 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Files &#38; Documents">
+<path d="M-1224 -287C-1224 -288.105 -1223.1 -289 -1222 -289H274C275.104 -289 276 -288.105 276 -287V1209C276 1210.1 275.105 1211 274 1211H-1222C-1223.1 1211 -1224 1210.1 -1224 1209V-287Z" fill="white"/>
+<path d="M-1222 -289V-288H274V-289V-290H-1222V-289ZM276 -287H275V1209H276H277V-287H276ZM274 1211V1210H-1222V1211V1212H274V1211ZM-1224 1209H-1223V-287H-1224H-1225V1209H-1224ZM-1222 1211V1210C-1222.55 1210 -1223 1209.55 -1223 1209H-1224H-1225C-1225 1210.66 -1223.66 1212 -1222 1212V1211ZM276 1209H275C275 1209.55 274.552 1210 274 1210V1211V1212C275.657 1212 277 1210.66 277 1209H276ZM274 -289V-288C274.552 -288 275 -287.552 275 -287H276H277C277 -288.657 275.657 -290 274 -290V-289ZM-1222 -289V-290C-1223.66 -290 -1225 -288.657 -1225 -287H-1224H-1223C-1223 -287.552 -1222.55 -288 -1222 -288V-289Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Calendar-Refresh">
+<rect x="-19.5" y="-56.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Property 1=M">
+<g id=".Calendar-Refresh--Streamline-Ultimate">
+<path id="Vector" d="M8.59979 16.7601H3.1598C2.79911 16.7601 2.45319 16.6168 2.19814 16.3618C1.94309 16.1067 1.7998 15.7608 1.7998 15.4001V4.52015C1.7998 4.15946 1.94309 3.81354 2.19814 3.55849C2.45319 3.30344 2.79911 3.16016 3.1598 3.16016H15.3998C15.7605 3.16016 16.1064 3.30344 16.3614 3.55849C16.6165 3.81354 16.7598 4.15946 16.7598 4.52015V8.60014" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M1.7998 7.23926H16.7598" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M5.87988 4.52077V1.80078" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M12.6797 4.52077V1.80078" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M14.7203 18.1201H11.3203V21.5201" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M21.6712 18.7856C21.3104 19.8374 20.6127 20.7408 19.6863 21.3558C18.7599 21.9708 17.6565 22.2631 16.5472 22.1873C15.4378 22.1114 14.3844 21.6718 13.5503 20.9365C12.7162 20.2012 12.1479 19.2112 11.9336 18.1201" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M18.7998 15.4H22.1998V12" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M11.8496 14.7347C12.2097 13.6823 12.9071 12.7782 13.8336 12.1626C14.76 11.547 15.8637 11.2543 16.9734 11.3301C18.0832 11.4058 19.1369 11.8457 19.9711 12.5815C20.8053 13.3172 21.3734 14.3077 21.5872 15.3993" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

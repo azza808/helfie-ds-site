@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Files &#38; Documents">
+<path d="M-947 -287C-947 -288.105 -946.105 -289 -945 -289H551C552.104 -289 553 -288.105 553 -287V1209C553 1210.1 552.105 1211 551 1211H-945C-946.105 1211 -947 1210.1 -947 1209V-287Z" fill="white"/>
+<path d="M-945 -289V-288H551V-289V-290H-945V-289ZM553 -287H552V1209H553H554V-287H553ZM551 1211V1210H-945V1211V1212H551V1211ZM-947 1209H-946V-287H-947H-948V1209H-947ZM-945 1211V1210C-945.552 1210 -946 1209.55 -946 1209H-947H-948C-948 1210.66 -946.657 1212 -945 1212V1211ZM553 1209H552C552 1209.55 551.552 1210 551 1210V1211V1212C552.657 1212 554 1210.66 554 1209H553ZM551 -289V-288C551.552 -288 552 -287.552 552 -287H553H554C554 -288.657 552.657 -290 551 -290V-289ZM-945 -289V-290C-946.657 -290 -948 -288.657 -948 -287H-947H-946C-946 -287.552 -945.552 -288 -945 -288V-289Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_File-Medical">
+<rect x="-18.5" y="-56.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Property 1=M">
+<path id="Vector" d="M18.7691 12.79H15.5301V15.541H12.7793V18.78H15.5301V21.5307H18.7691V18.78H21.52V15.541H18.7691V12.79Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M5.04297 7.59375H14.0117" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M5.04297 11.4375H11.4492" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M5.04297 15.2812H8.24609" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M9.55632 19.125H3.76172C3.42191 19.125 3.09602 18.99 2.85574 18.7498C2.61546 18.5095 2.48047 18.1835 2.48047 17.8438V3.75C2.48047 3.41019 2.61546 3.0843 2.85574 2.84402C3.09602 2.60374 3.42191 2.46875 3.76172 2.46875H12.8407C13.1802 2.46882 13.5059 2.60369 13.7461 2.84373L16.1993 5.2969C16.4393 5.53709 16.5742 5.86274 16.5742 6.20232V9.72879" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>

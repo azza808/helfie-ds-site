@@ -1,0 +1,1919 @@
+/**
+ * Live component specimens — values measured from Component Library 2026
+ * (file f7lZix9shDCvJqpRXVWCcb). Do not invent sizes; ask when spec is missing.
+ *
+ * Sources:
+ * - Button set 5943:43143 (Text / Icon+text / Icon) (+ V5 docs 51:3)
+ * - Chat bubble 7232:495 · AI Response 6405:3750
+ * - Single-line input / Input field/Single line (Fields 6144:42123)
+ * - Chip set 6398:3932
+ * - Toggle set 5950:43615
+ * - Badge set (⤷Badge)
+ * - User Avatar 7370:8312
+ */
+
+/* Button — set 5943:43143. Library stroke is INSIDE; use inset box-shadow so
+   h56/48/40/32 stay true (a CSS border on border-box steals 2px and throws
+   icon + label off-centre). Drawer Base and every other surface must use these
+   classes — do not invent drawer-only button styles. */
+.ds-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ds-spacing-sm); /* 8 — Button itemSpacing */
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  font-family: var(--ds-font-family);
+  font-weight: var(--ds-font-weight-medium); /* 500 — Ubuntu Medium */
+  font-size: var(--ds-font-size-label-md); /* 16 */
+  line-height: var(--ds-line-height-label-md); /* 20 */
+  letter-spacing: var(--ds-letter-spacing-condense); /* -0.1px */
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.ds-button:focus-visible {
+  outline: 2px solid var(--ds-colour-border-focus-default);
+  outline-offset: 2px;
+}
+
+.ds-button__label {
+  display: inline-block;
+}
+
+.ds-button--primary {
+  background: var(--ds-colour-fill-accent); /* #0537ff */
+  color: var(--ds-colour-text-inverse-primary); /* #ffffff */
+}
+
+.ds-button--secondary {
+  background: var(--ds-colour-fill-neutral); /* #ffffff */
+  color: var(--ds-colour-fill-accent);
+  box-shadow: inset 0 0 0 1px var(--ds-colour-fill-accent); /* inside stroke */
+}
+
+.ds-button--tertiary {
+  background: transparent;
+  color: var(--ds-colour-fill-accent);
+}
+
+.ds-button--destructive {
+  background: var(--ds-colour-status-error-default); /* #dc2626 */
+  color: var(--ds-colour-text-inverse-primary);
+}
+
+.ds-button--disabled,
+.ds-button:disabled {
+  background: var(--ds-colour-border-subtle); /* #e5e5e5 — Disabled fill */
+  color: var(--ds-colour-text-tertiary); /* #666666 */
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Size=Large — h56, pad 16×24, radius 16 */
+.ds-button--xl {
+  height: var(--ds-button-height-xl);
+  min-height: var(--ds-button-height-xl);
+  padding: var(--ds-spacing-lg) var(--ds-spacing-xl); /* 16 24 — Figma Large */
+  border-radius: var(--ds-radius-md);
+}
+
+/* Size=Medium — h48, pad 12×16, radius 16 */
+.ds-button--lg {
+  height: var(--ds-button-height-lg);
+  min-height: var(--ds-button-height-lg);
+  padding: var(--ds-spacing-md) var(--ds-spacing-lg);
+  border-radius: var(--ds-radius-md);
+}
+
+/* Size=Small — h40, pad 12, radius full, Regular */
+.ds-button--md {
+  height: var(--ds-button-height-md);
+  min-height: var(--ds-button-height-md);
+  padding: var(--ds-spacing-md);
+  border-radius: var(--ds-radius-full);
+  font-weight: var(--ds-font-weight-regular);
+}
+
+/* Size=XSmall — h32, pad 4×12, radius full, Regular */
+.ds-button--sm {
+  height: var(--ds-button-height-sm);
+  min-height: var(--ds-button-height-sm);
+  padding: var(--ds-spacing-xs) var(--ds-spacing-md);
+  border-radius: var(--ds-radius-full);
+  font-weight: var(--ds-font-weight-regular);
+}
+
+/* Icon glyph — Icon_Diameter Size=M 24; XSmall Icon+text uses Size=S 20.
+   Masked so the icon picks up the button’s text colour. */
+.ds-button__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  background-color: currentColor;
+  -webkit-mask: var(--ds-button-icon) center / contain no-repeat;
+  mask: var(--ds-button-icon) center / contain no-repeat;
+}
+
+.ds-button--sm .ds-button__icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Type=Icon+text — same pads as Text; gap 8 (XSmall gap 4) */
+.ds-button--icon-text.ds-button--sm {
+  gap: var(--ds-spacing-xs); /* 4 */
+  padding: 6px 8px;
+}
+
+/* Type=Icon — square control, full radius, equal pad; icon 24 */
+.ds-button--icon {
+  position: relative;
+  border-radius: var(--ds-radius-full);
+  gap: 0;
+}
+
+.ds-button--icon.ds-button--xl {
+  width: 56px;
+  min-width: 56px;
+  min-height: 56px;
+  padding: var(--ds-spacing-lg); /* 16 */
+}
+
+.ds-button--icon.ds-button--lg {
+  width: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  padding: var(--ds-spacing-md); /* 12 */
+}
+
+.ds-button--icon.ds-button--md {
+  width: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  padding: var(--ds-spacing-sm); /* 8 */
+}
+
+.ds-button--icon.ds-button--sm {
+  width: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  padding: var(--ds-spacing-xs); /* 4 */
+}
+
+.ds-button--icon.ds-button--sm .ds-button__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.ds-button--icon .ds-button__label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Single-line input field — outer gap 8; control 300×48, pad 12, radius 12, stroke 1 */
+.ds-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-spacing-sm);
+  max-width: 300px;
+  font-family: var(--ds-font-family);
+}
+
+.ds-field__label {
+  margin: 0;
+  font-size: var(--ds-font-size-label-md);
+  font-weight: var(--ds-font-weight-medium);
+  line-height: var(--ds-line-height-label-md);
+  letter-spacing: var(--ds-letter-spacing-condense);
+  color: var(--ds-colour-text-primary);
+}
+
+/* Input value — Ubuntu Regular 16/22, letter-spacing 0. Control h48, pad 12, r12. */
+.ds-field__input {
+  min-height: 48px;
+  padding: var(--ds-spacing-md); /* 12 all sides */
+  border: 1px solid var(--ds-colour-border-default); /* #d1d1d1 */
+  border-radius: var(--ds-radius-sm); /* 12 */
+  font: inherit;
+  font-size: var(--ds-font-size-body-md); /* 16 */
+  line-height: var(--ds-line-height-body-md); /* 22 */
+  letter-spacing: var(--ds-letter-spacing-default); /* 0 */
+  color: var(--ds-colour-text-primary);
+  background: var(--ds-colour-fill-neutral);
+  box-sizing: border-box;
+}
+
+/* Multi-line input field 6395:2342 — h64, top-aligned, otherwise identical */
+textarea.ds-field__input {
+  min-height: 64px;
+  height: auto;
+  resize: vertical;
+}
+
+.ds-field__input::placeholder {
+  color: var(--ds-colour-text-tertiary); /* #666666 — State=Default input value */
+}
+
+/* Figma splits Focussed (still #d1d1d1) from Active/Typing (#0537ff). A browser
+   :focus is the Active/Typing case, so the border turns accent — 1px, no ring. */
+.ds-field__input:focus {
+  outline: none;
+  border-color: var(--ds-colour-border-focus-default); /* #0537ff */
+}
+
+.ds-field--error .ds-field__input {
+  border-color: var(--ds-colour-status-error-default); /* #dc2626 */
+}
+
+/* State=Disabled — fill #f5f5f5, border #e5e5e5, text #666666 */
+.ds-field__input:disabled {
+  background: var(--ds-colour-fill-neutral-subtle); /* #f5f5f5 */
+  color: var(--ds-colour-text-disabled); /* #666666 */
+  border-color: var(--ds-colour-border-subtle); /* #e5e5e5 */
+  cursor: not-allowed;
+}
+
+/* Helper text / Error message — Ubuntu Regular 14/20, not mono */
+.ds-field__hint,
+.ds-field__error {
+  margin: 0;
+  font-family: var(--ds-font-family);
+  font-size: var(--ds-font-size-body-sm); /* 14 */
+  font-weight: var(--ds-font-weight-regular);
+  line-height: var(--ds-line-height-body-sm); /* 20 */
+  letter-spacing: var(--ds-letter-spacing-default);
+  color: var(--ds-colour-text-tertiary); /* #666666 */
+}
+
+.ds-field__error {
+  color: var(--ds-colour-text-error); /* #b91c1c */
+}
+
+/* Badge — Size Large default: h24, pad 8×4, radius 8, Ubuntu Regular 14/16 */
+.ds-badge {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 24px;
+  padding: var(--ds-spacing-xs) var(--ds-spacing-sm); /* 4 8 */
+  border-radius: var(--ds-radius-xs); /* 8 — not pill */
+  border: 1px solid transparent;
+  font-family: var(--ds-font-family);
+  font-size: 14px;
+  font-weight: var(--ds-font-weight-regular);
+  line-height: 16px;
+  letter-spacing: var(--ds-letter-spacing-condense);
+}
+
+.ds-badge--success {
+  background: var(--ds-colour-fill-success); /* #cfffe0 */
+  color: var(--ds-colour-text-success); /* #15803d */
+}
+
+.ds-badge--warning {
+  background: var(--ds-colour-fill-warning); /* #ffedd5 */
+  color: var(--ds-colour-text-warning); /* #c2410c */
+}
+
+.ds-badge--error {
+  background: var(--ds-colour-fill-error); /* #fee2e2 */
+  color: var(--ds-colour-text-error); /* #b91c1c */
+}
+
+.ds-badge--info {
+  background: var(--ds-colour-fill-accent-subtle); /* #f2f6ff */
+  color: var(--ds-colour-text-emphasis); /* #0537ff */
+}
+
+.ds-badge--neutral {
+  background: var(--ds-colour-fill-neutral-subtle); /* #f5f5f5 */
+  color: var(--ds-colour-text-primary); /* #111111 — Large Neutral text */
+}
+
+.ds-badge--ghost {
+  background: transparent;
+  border-color: var(--ds-colour-border-default);
+  color: var(--ds-colour-text-secondary); /* #3d3d3d */
+}
+
+/* Status=AI — linear gradient stops measured from Badge Large AI */
+.ds-badge--ai {
+  background: linear-gradient(
+    135deg,
+    var(--ds-colour-fill-ai-start),
+    var(--ds-colour-fill-ai-end)
+  );
+  color: var(--ds-colour-text-primary);
+}
+
+/* Size=Small — same h24/pad/radius; type 12/16 Regular, letter-spacing 0 */
+.ds-badge--sm {
+  font-size: var(--ds-font-size-caption);
+  line-height: var(--ds-line-height-caption);
+  letter-spacing: var(--ds-letter-spacing-default);
+}
+
+/*
+ * Lozenge (Lozenge 7587:638) — a separate component from Badge, not a small badge.
+ * h20, radius 999, pad 2/8, gap 4, fill #f5f5f5 for every type, 6px coloured dot,
+ * Ubuntu Regular 12/16 #111. Type changes the dot only.
+ */
+.ds-lozenge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ds-spacing-xs); /* 4 */
+  box-sizing: border-box;
+  height: 20px;
+  padding: var(--ds-spacing-2xs) var(--ds-spacing-sm); /* 2 8 */
+  border-radius: var(--ds-radius-full); /* 999 */
+  background: var(--ds-colour-fill-neutral-subtle); /* #f5f5f5 */
+  font-family: var(--ds-font-family);
+  font-size: var(--ds-font-size-caption); /* 12 */
+  font-weight: var(--ds-font-weight-regular);
+  line-height: var(--ds-line-height-caption); /* 16 */
+  letter-spacing: var(--ds-letter-spacing-default); /* 0 */
+  color: var(--ds-colour-text-primary); /* #111111 */
+}
+
+.ds-lozenge__dot {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: var(--ds-radius-full);
+  background: var(--ds-colour-text-tertiary); /* Type=Neutral #666666 */
+}
+
+.ds-lozenge--info .ds-lozenge__dot {
+  background: var(--ds-colour-fill-accent); /* #0537ff */
+}
+
+.ds-lozenge--success .ds-lozenge__dot {
+  background: var(--ds-colour-status-success-default); /* #00c448 */
+}
+
+.ds-lozenge--warning .ds-lozenge__dot {
+  background: var(--ds-colour-status-concerning-default); /* #f97316 */
+}
+
+.ds-lozenge--error .ds-lozenge__dot {
+  background: var(--ds-colour-status-error-default); /* #dc2626 */
+}
+
+/*
+ * Filter — Component Library 2026 · Filter set 6398:4425
+ * Horizontal row of Chip instances · gap 12.
+ * Axes: Device Orientation (XS/S · M) × No. of filters (3–6) × Filter selected? (False · True).
+ * Selected=True prepends Icon_Close-Fill 28×28, then one selected Chip + remaining unselected.
+ */
+.ds-filter {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--ds-spacing-md); /* 12 */
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.ds-filter__clear {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.ds-filter__clear img {
+  display: block;
+  width: 28px;
+  height: 28px;
+}
+
+/* Chip — Chip set 6398:3932
+   h32 · pad 8/12/8/8 · radius full · inside stroke 1 · Regular 14/16 · letter-spacing -0.1
+   Label sits in a frame with paddingLeft 4 → text-only effective inset is 12 / 12 (centred).
+   With indicator: chip L8 + 8px dot + frame L4 (= 4 gap) + text + R12.
+   Use inset box-shadow for the stroke so padding + 16px line-height stay true to Figma
+   (a CSS border on border-box would steal 2px and push the label off-centre). */
+.ds-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin: 0;
+  min-height: 32px;
+  height: 32px;
+  padding: var(--ds-spacing-sm) var(--ds-spacing-md); /* 8 12 — includes label-frame +4 on the left */
+  border: none;
+  border-radius: var(--ds-radius-full);
+  box-shadow: inset 0 0 0 1px var(--ds-colour-border-default);
+  background: transparent;
+  font-family: var(--ds-font-family);
+  font-size: 14px;
+  font-weight: var(--ds-font-weight-regular);
+  line-height: 16px;
+  letter-spacing: var(--ds-letter-spacing-condense);
+  color: var(--ds-colour-text-tertiary); /* #666666 unselected */
+  white-space: nowrap; /* Chip labels never stack */
+  flex-shrink: 0; /* Width follows label — do not compress into a wrap */
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.ds-chip--selected {
+  box-shadow: none;
+  background: var(--ds-colour-fill-inverse-neutral-strong); /* #111111 */
+  color: var(--ds-colour-text-inverse-primary); /* #ffffff */
+}
+
+/* With indicator: drop the label-frame’s +4 from left pad; keep it as the dot→text gap */
+.ds-chip:has(.ds-chip__dot) {
+  padding-left: var(--ds-spacing-sm); /* 8 */
+}
+
+/* Indicator 8×8; label frame paddingLeft 4 → margin-right 4 */
+.ds-chip__dot {
+  width: 8px;
+  height: 8px;
+  margin-right: var(--ds-spacing-xs); /* 4 */
+  border-radius: var(--ds-radius-full);
+  background: var(--ds-colour-status-success-default);
+  flex-shrink: 0;
+}
+
+.ds-chip__dot--concerning {
+  background: var(--ds-colour-status-concerning-default);
+}
+
+.ds-chip__dot--critical {
+  background: var(--ds-colour-status-error-default);
+}
+
+.icon-size {
+  border-radius: 6px;
+  background: var(--ds-colour-guides); /* Figma Guide #ff00ff — size bounding boxes */
+  margin: var(--ds-spacing-sm) 0;
+}
+
+/*
+ * User Avatar 7370:8312 — SM 32 / MD 48 / LG 64 / XL 96, circle, fill #cbdafe.
+ * Registered: Ubuntu Medium initials in #0537ff (12/16 · 18/24 · 24/30 · 36/44).
+ * Guest: a #0537ff head-and-shoulders Union, 74.35% wide × 75.5% tall,
+ * centred horizontally and flush to the bottom edge, clipped by the circle.
+ */
+.ds-avatar {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--ds-radius-full);
+  background: var(--ds-colour-fill-avatar); /* #cbdafe */
+  color: var(--ds-colour-fill-accent);
+  font-family: var(--ds-font-family);
+  font-weight: var(--ds-font-weight-medium);
+  letter-spacing: 0.5px; /* MD/LG/XL initials */
+  overflow: hidden;
+}
+
+.ds-avatar--sm {
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.7px; /* Size=SM initials */
+}
+
+.ds-avatar--md { width: 48px; height: 48px; font-size: 18px; line-height: 24px; } /* Size=MD */
+.ds-avatar--lg { width: 64px; height: 64px; font-size: 24px; line-height: 30px; } /* Size=LG */
+.ds-avatar--xl { width: 96px; height: 96px; font-size: 36px; line-height: 44px; } /* Size=XL */
+
+.ds-avatar--guest {
+  background: var(--ds-colour-fill-avatar);
+  color: transparent; /* the glyph replaces any text */
+  box-shadow: none;
+}
+
+.ds-avatar--guest::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 74.35%; /* 23.79 / 32 */
+  height: 75.5%; /* 24.16 / 32 */
+  background-color: var(--ds-colour-fill-accent); /* #0537ff */
+  -webkit-mask: var(--ds-icon-avatar-guest) center / 100% 100% no-repeat;
+  mask: var(--ds-icon-avatar-guest) center / 100% 100% no-repeat;
+}
+
+.ds-avatar--photo {
+  background: #d9d9d9; /* photo placeholder rect in Registered variant */
+  color: transparent;
+}
+
+/* Tile set 7173:999 — horizontal row: [icon circle] gap 8 [label / body stack].
+   Small 200×56 pad 8, icon 40, text gap 4, body 12/16, align top.
+   Large 240×72 pad 12, icon 48, text gap 8, body 14/20, align centre. Radius 16. */
+.ds-tile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Small counterAxisAlignItems=MIN */
+  gap: var(--ds-spacing-sm); /* 8 — outer itemSpacing */
+  background: var(--ds-colour-fill-neutral);
+  border: 1px solid var(--ds-colour-border-accent-subtle); /* #a3bfff White */
+  border-radius: var(--ds-radius-md); /* 16 */
+  color: var(--ds-colour-text-primary);
+  font-family: var(--ds-font-family);
+  box-sizing: border-box;
+}
+
+/* Icon Placeholder — 40 (Small) / 48 (Large), fill #f2f6ff on White tiles.
+   Measured radius 33.33 / 40 resolves to a circle at these sizes. */
+.ds-tile__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--ds-radius-full);
+  background: var(--ds-colour-fill-accent-subtle); /* #f2f6ff */
+  box-sizing: border-box;
+}
+
+.ds-tile__icon img,
+.ds-tile__icon svg {
+  display: block;
+  width: 24px; /* Icon_Diameter Size=M */
+  height: 24px;
+}
+
+.ds-tile__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-spacing-xs); /* 4 — Small text stack */
+  flex: 1;
+  min-width: 0;
+}
+
+.ds-tile__text strong {
+  display: block;
+  font-size: var(--ds-font-size-label-md); /* 16 */
+  font-weight: var(--ds-font-weight-medium);
+  line-height: var(--ds-line-height-label-md); /* 20 */
+  letter-spacing: var(--ds-letter-spacing-condense);
+}
+
+.ds-tile__text span {
+  display: block;
+  font-size: var(--ds-font-size-caption); /* 12 — Small body; Large overrides */
+  font-weight: var(--ds-font-weight-regular);
+  line-height: var(--ds-line-height-caption); /* 16 */
+  letter-spacing: var(--ds-letter-spacing-default); /* 0 */
+  color: var(--ds-colour-text-tertiary); /* #666666 */
+  font-family: var(--ds-font-family);
+}
+
+.ds-tile--lg {
+  width: 240px;
+  min-height: 72px;
+  padding: var(--ds-spacing-md); /* 12 */
+  align-items: center; /* Large counterAxisAlignItems=CENTER */
+}
+
+.ds-tile--lg .ds-tile__icon {
+  width: 48px;
+  height: 48px;
+}
+
+.ds-tile--lg .ds-tile__text {
+  gap: var(--ds-spacing-sm); /* 8 — Large text stack */
+}
+
+.ds-tile--lg .ds-tile__text span {
+  font-size: 14px; /* Large Tile body */
+  line-height: 20px;
+}
+
+.ds-tile--sm {
+  width: 200px;
+  min-height: 56px;
+  padding: var(--ds-spacing-sm); /* 8 */
+}
+
+.ds-tile--grey {
+  background: var(--ds-colour-fill-neutral-subtle); /* #f5f5f5 */
+  border-color: transparent; /* Grey variant stroke is a gradient — not reproduced */
+}
+
+.ds-tile--grey .ds-tile__icon {
+  background: var(--ds-colour-fill-neutral); /* #ffffff on Grey tiles */
+}
+
+/* Divider — Subtle 1px #e5e5e5; Default 1.5px #d1d1d1; Strong 2px #b8b8b8 */
+.ds-divider {
+  border: 0;
+  border-top: 1.5px solid var(--ds-colour-border-default); /* Default */
+  margin: var(--ds-spacing-sm) 0; /* vertical pad 8 in component */
+  width: 100%;
+}
+
+.ds-divider--subtle {
+  border-top-width: 1px;
+  border-top-color: var(--ds-colour-border-subtle); /* #e5e5e5 */
+}
+
+.ds-divider--strong {
+  border-top-width: 2px;
+  border-top-color: #b8b8b8; /* measured Strong stroke */
+}
+
+.ds-divider-label {
+  display: flex;
+  align-items: center;
+  gap: var(--ds-spacing-md); /* 12 */
+  width: 100%;
+  padding: var(--ds-spacing-sm) var(--ds-spacing-2xl); /* 8 32 when text shown */
+  color: var(--ds-colour-text-tertiary); /* #666 — Subtle/Default text */
+  font-family: var(--ds-font-family);
+  font-size: var(--ds-font-size-caption);
+  font-weight: var(--ds-font-weight-regular);
+  line-height: var(--ds-line-height-caption);
+  box-sizing: border-box;
+}
+
+.ds-divider-label span {
+  flex: 1;
+  height: 1px;
+  background: var(--ds-colour-border-subtle);
+}
+
+.ds-divider-label--default span { background: var(--ds-colour-border-default); }
+.ds-divider-label--strong span { background: #b8b8b8; height: 2px; }
+.ds-divider-label--strong {
+  color: var(--ds-colour-text-secondary); /* #3d3d3d */
+  font-weight: var(--ds-font-weight-medium);
+}
+
+.ds-divider-label em {
+  font-style: normal;
+}
+
+/* Dropdown menu — w300, radius 12, shadow 0 4 6 / 8%; items h48 pad 12 */
+.ds-menu {
+  display: flex;
+  flex-direction: column;
+  width: min(300px, 100%);
+  padding: 0;
+  background: var(--ds-colour-fill-neutral);
+  border: 1px solid var(--ds-colour-fill-neutral);
+  border-radius: var(--ds-radius-sm); /* 12 */
+  box-shadow: var(--ds-elevation-menu);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* .Dropdown item 6395:2967 — h48, pad 12, white fill, 1px #b8b8b8 bottom rule.
+   The rule is what separates options; the menu clips it at the rounded corners. */
+.ds-menu button {
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid var(--ds-colour-text-guidance); /* #b8b8b8 */
+  background: var(--ds-colour-fill-neutral);
+  padding: var(--ds-spacing-md); /* 12 */
+  min-height: 48px;
+  border-radius: 0;
+  font-family: var(--ds-font-family);
+  font-size: var(--ds-font-size-label-md);
+  font-weight: var(--ds-font-weight-regular);
+  line-height: var(--ds-line-height-label-md);
+  letter-spacing: var(--ds-letter-spacing-condense);
+  color: var(--ds-colour-text-primary);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* Type=Pressed */
+.ds-menu button:hover,
+.ds-menu button.is-selected,
+.ds-menu button[aria-current="true"] {
+  background: var(--ds-colour-fill-accent-subtle); /* #f2f6ff */
+  border-color: var(--ds-colour-border-accent-subtle); /* #a3bfff */
+  color: var(--ds-colour-fill-accent);
+}
+
+/* Static specimens keep their documented state on hover */
+.ds-menu[data-live="menu-static"] button { cursor: default; }
+
+.ds-menu[data-live="menu-static"] button:hover:not(.is-selected):not(:disabled) {
+  background: var(--ds-colour-fill-neutral);
+  border-color: var(--ds-colour-text-guidance); /* keep the #b8b8b8 divider */
+  color: var(--ds-colour-text-primary);
+}
+
+.ds-menu button:disabled,
+.ds-menu button.is-disabled {
+  background: var(--ds-colour-border-subtle); /* #e5e5e5 */
+  color: var(--ds-colour-text-tertiary);
+  cursor: not-allowed;
+}
+
+
+/* Stepper — page indicators, not numbered steps.
+   Active pill 16×6, inactive dot 6×6, itemSpacing 4. Modes Light and Dark. */
+.ds-stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ds-spacing-xs); /* 4 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Default = Mode=Dark: #111111 dots (active solid, inactive at 40%) */
+.ds-stepper__dot {
+  width: 6px;
+  height: 6px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--ds-radius-full);
+  background: rgba(17, 17, 17, 0.4); /* measured inactive */
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.ds-stepper__dot.is-active {
+  width: 16px;
+  background: #111111; /* measured selection */
+}
+
+.ds-stepper__dot:focus-visible {
+  outline: 2px solid var(--ds-colour-border-focus-default);
+  outline-offset: 2px;
+}
+
+/* Mode=Light — white dots, for use on a dark or photographic surface.
+   The modifier is named for the Figma mode, not for the surface behind it. */
+.ds-stepper--mode-light .ds-stepper__dot {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.ds-stepper--mode-light .ds-stepper__dot.is-active {
+  background: #ffffff;
+}
+
+/*
+ * Table (Table 7523:1622) — 300 wide. A title sits above a clipped wrapper with
+ * radius 16 and a 1px #e5e5e5 outline; rows are 32 high.
+ * Header cell: pad 8, fill #e5e5e5, white rules, 12/16 #3d3d3d.
+ * Text cell:   pad 4/4/4/8, fill #fff, #e5e5e5 rules, 14/20 #111.
+ */
+.ds-table-wrap {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid var(--ds-colour-border-subtle); /* #e5e5e5 */
+  border-radius: var(--ds-radius-md); /* 16 */
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.ds-table {
+  width: 100%;
+  max-width: 300px;
+  border-collapse: collapse;
+  font-family: var(--ds-font-family);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--ds-colour-text-primary);
+}
+
+.ds-table tr {
+  height: 32px; /* Row h32 */
+}
+
+.ds-table th,
+.ds-table td {
+  text-align: left;
+  padding: var(--ds-spacing-xs) var(--ds-spacing-xs) var(--ds-spacing-xs) var(--ds-spacing-sm); /* 4 4 4 8 */
+  border: 0;
+  border-right: 1px solid var(--ds-colour-border-subtle); /* #e5e5e5 */
+  border-bottom: 1px solid var(--ds-colour-border-subtle);
+  background: var(--ds-colour-fill-neutral);
+  font-weight: var(--ds-font-weight-regular);
+  box-sizing: border-box;
+}
+
+/* Header cells rule in white so the grey fill reads as one band */
+.ds-table th {
+  padding: var(--ds-spacing-sm); /* 8 */
+  background: var(--ds-colour-border-subtle); /* #e5e5e5 Header cell */
+  border-right-color: var(--ds-colour-fill-neutral); /* #ffffff */
+  border-bottom-color: var(--ds-colour-fill-neutral);
+  color: var(--ds-colour-text-secondary); /* #3d3d3d */
+  font-weight: var(--ds-font-weight-regular);
+  font-size: var(--ds-font-size-caption); /* 12 */
+  line-height: var(--ds-line-height-caption); /* 16 */
+  letter-spacing: var(--ds-letter-spacing-default);
+  font-family: var(--ds-font-family);
+}
+
+/* The wrapper supplies the outer rule, so drop the edge cell borders it clips */
+.ds-table tr > :last-child {
+  border-right: 0;
+}
+
+.ds-table tr:last-child > * {
+  border-bottom: 0;
+}
+
+/* table title — Ubuntu Medium 12/16 #111, 4 above the wrapper */
+.ds-table__title {
+  margin: 0 0 var(--ds-spacing-xs); /* 4 */
+  font-size: var(--ds-font-size-caption); /* 12 */
+  font-weight: var(--ds-font-weight-medium);
+  line-height: var(--ds-line-height-caption); /* 16 */
+  letter-spacing: var(--ds-letter-spacing-default);
+  color: var(--ds-colour-text-primary);
+}
+
+/*
+ * Toast — Component Library 2026 · 7179:7223
+ * Row: [status icon 24] · [text stack gap 4] · [optional action] · [optional dismiss]
+ * Pad 12/8/12/12, gap 8, radius 8, fill #fff, 1px type-coloured border,
+ * shadow 0 4 24 rgba(17,17,17,0.12).
+ */
+.ds-toast {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--ds-spacing-sm); /* 8 */
+  width: min(358px, 100%);
+  min-height: 48px;
+  padding: 12px 8px 12px 12px;
+  border-radius: var(--ds-radius-xs); /* 8 */
+  background: var(--ds-colour-fill-neutral);
+  border: 1px solid var(--ds-colour-border-default);
+  box-shadow: var(--ds-elevation-toast);
+  font-family: var(--ds-font-family);
+  color: var(--ds-colour-text-primary);
+  box-sizing: border-box;
+}
+
+.ds-toast__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 0;
+  object-fit: contain;
+}
+
+.ds-toast__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--ds-spacing-xs); /* 4 — Label → Body */
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ds-toast__title {
+  display: block;
+  margin: 0;
+  font-size: var(--ds-font-size-label-md); /* 16 */
+  font-weight: var(--ds-font-weight-medium);
+  line-height: var(--ds-line-height-label-md); /* 20 */
+  letter-spacing: var(--ds-letter-spacing-condense);
+  color: var(--ds-colour-text-primary);
+}
+
+.ds-toast__body {
+  display: block;
+  margin: 0;
+  font-size: 14px;
+  font-weight: var(--ds-font-weight-regular);
+  line-height: 20px;
+  color: var(--ds-colour-text-tertiary); /* #666666 */
+}
+
+/* Action = Button XSmall Tertiary — 32h, pad 4×12, r999, 16/20 Regular #0537ff */
+.ds-toast__action {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 4px 12px;
+  margin: 0;
+  border: 0;
+  border-radius: var(--ds-radius-full);
+  background: transparent;
+  color: var(--ds-colour-fill-accent);
+  font-family: var(--ds-font-family);
+  font-size: 16px;
+  font-weight: var(--ds-font-weight-regular);
+  line-height: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.ds-toast__action:focus-visible {
+  outline: 2px solid var(--ds-colour-border-focus-default);
+  outline-offset: 2px;
+}
+
+.ds-toast__close {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: #888888; /* Close-Stroke measured */
+}
+
+.ds-toast__close img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.ds-toast--success {
+  border-color: var(--ds-colour-border-toast-success);
+}
+
+.ds-toast--info {
+  border-color: var(--ds-colour-border-toast-info);
+}
+
+.ds-toast--warning {
+  border-color: var(--ds-colour-border-toast-warning);
+}
+
+.ds-toast--error {
+  border-color: var(--ds-colour-border-toast-error);
+}
+
+.ds-toast.is-dismissed {
+  display: none;
+}
+
+/*
+ * Modal — Component Library 2026 · Modal set 7179:8157
+ * Device=XS/SM/MD. Viewport fill #111 · Modal frame · Slot×n · Decision container.
+ * Do not collapse into a custom card; do not invent a body field outside Slots.
+ */
+.ds-modal-viewport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 479px; /* Device=XS */
+  min-height: 520px;
+  padding: 32px 16px; /* viewport pad XS */
+  background: #111111;
+  box-sizing: border-box;
+}
+
+.ds-modal-viewport--sm {
+  max-width: 767px; /* Device=SM */
+}
+
+.ds-modal-viewport--md {
+  max-width: 1279px; /* Device=MD */
+}
+
+.ds-modal-viewport.is-closed {
+  display: none;
+}
+
+.ds-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--ds-spacing-lg); /* 16 */
+  width: 100%;
+  max-width: 447px; /* Device=XS frame */
+  padding: var(--ds-spacing-xl); /* 24 */
+  border-radius: var(--ds-radius-lg); /* 24 */
+  background: var(--ds-colour-fill-neutral); /* #ffffff */
+  font-family: var(--ds-font-family);
+  color: var(--ds-colour-text-primary);
+  box-sizing: border-box;
+}
+
+.ds-modal--sm {
+  max-width: 540px; /* Device=SM frame */
+}
+
+.ds-modal--md {
+  max-width: 720px; /* Device=MD frame */
+  padding: var(--ds-spacing-2xl); /* 32 */
+}
+
+.ds-modal__slots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--ds-spacing-lg); /* 16 — same as frame gap */
+  width: 100%;
+}
+
+/* Slot atom 6417:396 — 79×80 placeholder for content / description */
+.ds-slot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 79px;
+  height: 80px;
+  margin: 0;
+  background: var(--ds-colour-fill-neutral);
+  font-family: var(--ds-font-family);
+  font-size: 20px;
+  font-weight: var(--ds-font-weight-medium);
+  line-height: 24px;
+  letter-spacing: var(--ds-letter-spacing-default);
+  color: #111111;
+  box-sizing: border-box;
+}
+
+/* Decision container — strokeTop 1 #d1d1d1, padTop 16, gap 16 */
+.ds-modal__decision {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-spacing-lg); /* 16 */
+  width: 100%;
+  padding-top: var(--ds-spacing-lg); /* 16 */
+  border-top: 1px solid var(--ds-colour-border-default); /* #d1d1d1 */
+  box-sizing: border-box;
+}
+
+.ds-modal__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: var(--ds-font-weight-regular);
+  line-height: 24px;
+  letter-spacing: var(--ds-letter-spacing-default);
+  text-align: center;
+  color: #000000;
+}
+
+/* Button Container — gap 12 · equal-width · Size=Small → site --md */
+.ds-modal__actions {
+  display: flex;
+  gap: var(--ds-spacing-md); /* 12 */
+}
+
+.ds-modal__actions .ds-button {
+  flex: 1;
+}
+
+/*
+ * Drawer — Component Library 2026 · Drawer set 6457:911
+ * Device Orientation × Top Visual Type (Graphics / Icon / None).
+ * Viewport #111 · Container #f5f5f5 · Drawer sheet · Hero · Dragger · Slot · Base.
+ * Do not add chips or other components unless they are Slot content you have agreed.
+ */
+.ds-drawer-viewport {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  max-width: 479px; /* XS */
+  min-height: 400px;
+  background: #111111;
+  box-sizing: border-box;
+}
+
+.ds-drawer-viewport.is-closed {
+  display: none;
+}
+
+/* Legacy class alias used by older markup */
+.ds-drawer-scrim {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  max-width: 479px;
+  min-height: 400px;
+  background: #111111;
+  box-sizing: border-box;
+}
+
+.ds-drawer-scrim.is-closed {
+  display: none;
+}
+
+/* Container */
+.ds-drawer {
+  width: 100%;
+  background: var(--ds-colour-fill-neutral-subtle); /* #f5f5f5 */
+  border: 0;
+  border-radius: var(--ds-radius-lg) var(--ds-radius-lg) 0 0; /* 24 24 0 0 */
+  font-family: var(--ds-font-family);
+  color: var(--ds-colour-text-primary);
+  box-sizing: border-box;
+}
+
+/* Inner white Drawer frame — pad 40/24/24/24, gap 24, radius 24 */
+.ds-drawer__sheet {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--ds-spacing-xl); /* 24 */
+  padding: 40px var(--ds-spacing-xl) var(--ds-spacing-xl);
+  background: var(--ds-colour-fill-neutral); /* #ffffff */
+  border-radius: var(--ds-radius-lg); /* 24 */
+  box-sizing: border-box;
+}
+
+/* Dragger 36×6 · #e5e5e5 · 12 from top, centred */
+.ds-drawer__dragger {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 36px;
+  height: 6px;
+  border-radius: 99px;
+  background: var(--ds-colour-border-subtle); /* #e5e5e5 */
+}
+
+/* Hero Frame — gap 16, centred */
+.ds-drawer__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--ds-spacing-lg); /* 16 */
+  width: 100%;
+  text-align: center;
+}
+
+/* Top Visual Type=Icon — 48 circle, Guide #ff00ff (library CHANGE COLOUR) */
+.ds-drawer__hero-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--ds-radius-full);
+  background: var(--ds-colour-guides); /* #ff00ff — library guide fill */
+  flex-shrink: 0;
+}
+
+.ds-drawer__hero-icon img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+/* Text Frame — gap 8 */
+.ds-drawer__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-spacing-sm); /* 8 */
+  width: 100%;
+}
+
+.ds-drawer__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: var(--ds-font-weight-medium);
+  line-height: 26px;
+  letter-spacing: var(--ds-letter-spacing-condense);
+  color: #111111;
+}
+
+.ds-drawer__message {
+  margin: 0;
+  font-size: var(--ds-font-size-body-md); /* 16 */
+  font-weight: var(--ds-font-weight-regular);
+  line-height: var(--ds-line-height-body-md); /* 22 */
+  letter-spacing: var(--ds-letter-spacing-default);
+  color: var(--ds-colour-text-secondary); /* #3d3d3d */
+}
+
+/* Base — pad 24/16/32/16, gap 8 · library Button instances stretched to fill */
+.ds-drawer__base {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-spacing-sm); /* 8 */
+  padding: var(--ds-spacing-xl) var(--ds-spacing-lg) var(--ds-spacing-2xl); /* 24/16/32/16 */
+  box-sizing: border-box;
+}
+
+/* Fill width only — sizing, type, and centering come from .ds-button */
+.ds-drawer__base .ds-button {
+  width: 100%;
+}
+
+/*
+ * Info panel (Info panel 7181:2106) — 300 wide, pad 12, gap 12, radius 16.
+ * Detailed: [icon 24] · [title 18/24 Medium #000 · body 16/22 #666] stack gap 8, top-aligned.
+ * Slimline: [icon 24] · [body 16/22 #000] · [chevron 20] centred, no title, h68.
+ * Icon takes the style colour: Accent #0537ff, Neutral #666666.
+ */
+.ds-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--ds-spacing-md); /* 12 */
+  max-width: 300px;
+  padding: var(--ds-spacing-md); /* 12 — Detailed + Slimline */
+  border-radius: var(--ds-radius-md); /* 16 */
+  background: var(--ds-colour-fill-neutral-subtle); /* Neutral */
+  border: 1px solid transparent;
+  font-family: var(--ds-font-family);
+  color: var(--ds-colour-text-primary);
+  box-sizing: border-box;
+}
+
+/* Icon_Information-Stroke — 24 square, masked so it takes the style colour */
+.ds-info__icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  background-color: var(--ds-colour-text-tertiary); /* #666666 — Neutral */
+  -webkit-mask: var(--ds-icon-information) center / contain no-repeat;
+  mask: var(--ds-icon-information) center / contain no-repeat;
+}
+
+.ds-info--accent .ds-info__icon {
+  background-color: var(--ds-colour-fill-accent); /* #0537ff */
+}
+
+.ds-info__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-spacing-sm); /* 8 — Detailed text stack */
+  flex: 1;
+  min-width: 0;
+}
+
+.ds-info strong {
+  display: block;
+  margin: 0;
+  font-size: 18px;
+  font-weight: var(--ds-font-weight-medium);
+  line-height: 24px;
+  letter-spacing: var(--ds-letter-spacing-condense);
+  color: #000000;
+}
+
+.ds-info p {
+  margin: 0;
+  color: var(--ds-colour-text-tertiary); /* #666666 */
+  font-size: var(--ds-font-size-body-md); /* 16 */
+  line-height: var(--ds-line-height-body-md); /* 22 */
+}
+
+.ds-info--accent {
+  background: var(--ds-colour-fill-accent-subtle); /* #f2f6ff */
+}
+
+/* Outlined=true — white fill + border */
+.ds-info--outlined {
+  background: var(--ds-colour-fill-neutral);
+  border-color: var(--ds-colour-border-subtle); /* Neutral outlined #e5e5e5 */
+}
+
+.ds-info--accent.ds-info--outlined {
+  background: var(--ds-colour-fill-neutral);
+  border-color: var(--ds-colour-border-accent-subtle); /* #a3bfff */
+}
+
+/* Slimline — one line of body text between the icon and a chevron. No title. */
+.ds-info--slimline {
+  min-height: 68px;
+  align-items: center;
+}
+
+.ds-info--slimline strong {
+  display: none;
+}
+
+.ds-info--slimline p {
+  color: #000000; /* Slimline body is #000, not #666 */
+}
+
+/* Icon_Right — 20 square, stroke #888888 */
+.ds-info__chevron {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #888888;
+  -webkit-mask: var(--ds-icon-chevron-right) center / contain no-repeat;
+  mask: var(--ds-icon-chevron-right) center / contain no-repeat;
+}
+
+/*
+ * Action bar — set 2610:3445
+ * Axes: Device (XS/S/M) × Layout (Horizontal/Vertical) × Colour mode
+ *   (Light / Light-Secondary / Dark / Dark-Secondary)
+ * Buttons are library Button Text Large (site --xl).
+ */
+.ds-action-bar {
+  display: flex;
+  flex-direction: row;
+  gap: var(--ds-spacing-md); /* 12 */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 390px; /* Device=XS */
+  padding: 12px 16px 32px;
+  background: var(--ds-colour-fill-neutral); /* Light */
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.ds-action-bar--s {
+  max-width: 676px;
+}
+
+.ds-action-bar--m {
+  max-width: 720px;
+}
+
+.ds-action-bar--vertical {
+  flex-direction: column;
+}
+
+.ds-action-bar--light-secondary {
+  background: var(--ds-colour-fill-neutral-subtle); /* #f5f5f5 */
+}
+
+.ds-action-bar--dark {
+  background: rgba(17, 17, 17, 0.8);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.ds-action-bar--dark-secondary {
+  background: #111111;
+}
+
+.ds-action-bar .ds-button {
+  flex: 1;
+  width: 100%;
+}
+
+.ds-action-bar--vertical .ds-button {
+  flex: 0 0 auto;
+}
+
+.ds-chat {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-spacing-sm); /* 8 — Chat bubble / AI Response itemSpacing */
+  max-width: 480px;
+  font-family: var(--ds-font-family);
+}
+
+/*
+ * Chat bubble (Component Library 2026 · 7232:495) = the person’s message.
+ * Fill #f2f6ff, pad 16, gap 12; corners 24 / 24 / 0 / 24 (sharp bottom-right).
+ * Body Ubuntu Regular 16/22 #111. Sits on the right.
+ */
+.ds-chat__user {
+  align-self: flex-end;
+  max-width: 100%;
+  padding: var(--ds-spacing-lg); /* 16 */
+  border-radius: var(--ds-radius-lg) var(--ds-radius-lg) 0 var(--ds-radius-lg); /* 24 24 0 24 */
+  background: var(--ds-colour-fill-accent-subtle); /* #f2f6ff */
+  color: var(--ds-colour-text-primary);
+  font-size: var(--ds-font-size-body-md); /* 16 */
+  line-height: var(--ds-line-height-body-md); /* 22 */
+  font-weight: var(--ds-font-weight-regular);
+  box-sizing: border-box;
+}
+
+/*
+ * AI Response (Component Library 2026 · 6405:3750) = Helfie’s reply.
+ * No filled bubble — plain text on the left. Body Ubuntu Regular 16/22 #111.
+ */
+.ds-chat__ai {
+  align-self: flex-start;
+  max-width: 100%;
+  padding: 0;
+  background: transparent;
+  color: var(--ds-colour-text-primary);
+  font-size: var(--ds-font-size-body-md); /* 16 */
+  line-height: var(--ds-line-height-body-md); /* 22 */
+  font-weight: var(--ds-font-weight-regular);
+  box-sizing: border-box;
+}
+
+.ds-chat__ai p {
+  margin: 0;
+}
+
+/*
+ * Header Navigation — set 6398:6293 (120 variants in library; site shows axes)
+ * Nav row h60, pad 8/16, gap 8. Types: AI · Contextual · Title Leading · Title Centre · Brand.
+ * Colour Mode: Light · Light-Secondary · Dark · Dark-Secondary. User: Guest · Registered.
+ */
+.ds-header {
+  display: flex;
+  align-items: center;
+  gap: var(--ds-spacing-sm); /* 8 */
+  width: 100%;
+  max-width: 390px; /* XS */
+  min-height: 60px;
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-radius: 0;
+  color: var(--ds-colour-text-primary);
+  font-family: var(--ds-font-family);
+  box-sizing: border-box;
+}
+
+.ds-header--light-secondary {
+  background: var(--ds-colour-fill-neutral-subtle);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.ds-header--dark,
+.ds-header--dark-secondary {
+  background: rgba(17, 17, 17, 0.8);
+  color: #ffffff;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.ds-header--dark-secondary {
+  background: #111111;
+}
+
+.ds-header__title {
+  flex: 1;
+  margin: 0;
+  font-weight: var(--ds-font-weight-medium);
+  font-size: var(--ds-font-size-label-md); /* 16 */
+  line-height: var(--ds-line-height-label-md); /* 20 */
+  text-align: left;
+  min-width: 0;
+}
+
+.ds-header--title-centre .ds-header__title {
+  text-align: center;
+}
+
+.ds-header__icon,
+.ds-header__back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.ds-header__icon img,
+.ds-header__back img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.ds-header--dark .ds-header__icon img,
+.ds-header--dark .ds-header__back img,
+.ds-header--dark-secondary .ds-header__icon img,
+.ds-header--dark-secondary .ds-header__back img {
+  filter: invert(1);
+}
+
+.ds-header__context {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  min-width: 0;
+  padding: 4px;
+}
+
+.ds-header__wallet {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  height: 32px;
+  padding: 0 8px;
+  border-radius: var(--ds-radius-full);
+  background: var(--ds-colour-fill-accent-subtle);
+  font-size: 12px;
+  font-weight: var(--ds-font-weight-medium);
+  color: var(--ds-colour-text-primary);
+  flex-shrink: 0;
+}
+
+.ds-header--dark .ds-header__wallet,
+.ds-header--dark-secondary .ds-header__wallet {
+  background: transparent;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+}
+
+.ds-header__brand {
+  display: block;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.ds-header--brand {
+  justify-content: space-between;
+}
+
+.ds-site-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  background: #0537ff;
+  border-radius: 16px;
+  color: #fff;
+}
+
+.ds-site-footer p {
+  margin: 0;
+  font-family: var(--ds-mono, "IBM Plex Mono", monospace);
+  font-size: 13px;
+  line-height: 20px;
+  color: #e5e5e5;
+  max-width: 520px;
+}
+
+.ds-site-footer .logo { color: #fff; }
+
+/* ——— Selection and open/closed states used by the live specimens ———
+   Selection reuses the pressed treatment already measured for Dropdown menu
+   (fill #f2f6ff, border #a3bfff) rather than introducing a new colour. */
+
+.ds-tile.is-selected {
+  background: var(--ds-colour-fill-accent-subtle);
+  border-color: var(--ds-colour-fill-accent);
+}
+
+.ds-tile.is-selected strong { color: var(--ds-colour-fill-accent); }
+
+.ds-tile:focus-visible,
+.ds-table tbody tr:focus-visible {
+  outline: 2px solid var(--ds-colour-border-focus-default);
+  outline-offset: 2px;
+}
+
+[data-live="table-row"] tbody tr,
+[data-live="tile-select"] .ds-tile { cursor: pointer; }
+
+.ds-table tbody tr.is-selected td {
+  background: var(--ds-colour-fill-accent-subtle);
+}
+
+/* Closed state lives on the viewport / scrim — see .ds-drawer-viewport.is-closed */
+
+/*
+ * Badge Grid — set 7175:5895
+ * Axes: No. of Badges (2–10) × Badge Type (Success / Warning / Error / Info / Neutral / AI)
+ * Title 16/22 + Container row gap 8; stack gap 12.
+ */
+.ds-badge-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--ds-spacing-md); /* 12 */
+  max-width: 200px;
+  box-sizing: border-box;
+}
+
+.ds-badge-grid__title {
+  margin: 0;
+  font-family: var(--ds-font-family);
+  font-size: var(--ds-font-size-body-md); /* 16 */
+  font-weight: var(--ds-font-weight-medium);
+  line-height: var(--ds-line-height-body-md); /* 22 */
+  color: #111111;
+}
+
+.ds-badge-grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ds-spacing-sm); /* 8 */
+}
+
+/*
+ * Interaction bars — Main 9001:705 · Chat 9001:897 · Search 9014:33644 ·
+ * Journal 9025:36169 · Fav check 9014:35343 · pieces: .Interaction button, pills.
+ * Built from library Button + measured bar chrome — not unicode sketches.
+ */
+.ds-ibar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-spacing-sm); /* 8 */
+  width: 100%;
+  max-width: 390px; /* Xs */
+  padding: 24px 16px 32px;
+  box-sizing: border-box;
+}
+
+.ds-ibar--search {
+  padding: 24px 16px 16px;
+}
+
+.ds-ibar--journal {
+  padding: 0;
+  max-width: 350px;
+}
+
+.ds-ibar__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--ds-spacing-sm); /* 8 */
+  width: 100%;
+}
+
+.ds-ibar__row--between {
+  justify-content: space-between;
+  gap: var(--ds-spacing-lg); /* 16 — Journal */
+}
+
+/* .Interaction button — Type=Button; white fill, pad 8/16, h56 */
+.ds-ibar__action {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  min-width: 76px;
+  height: 56px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 0;
+  background: #ffffff;
+  font-family: var(--ds-font-family);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.ds-ibar__action-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: var(--ds-colour-guides); /* library Icon Slot guide */
+  -webkit-mask: var(--ds-ibar-action-icon, none) center / contain no-repeat;
+  mask: var(--ds-ibar-action-icon, none) center / contain no-repeat;
+}
+
+.ds-ibar__action-icon.is-img {
+  background: transparent;
+  -webkit-mask: none;
+  mask: none;
+}
+
+.ds-ibar__action-icon.is-img img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.ds-ibar__action-label {
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.ds-ibar__cluster {
+  display: inline-flex;
+  align-items: center;
+  height: 56px;
+  padding: 8px 16px;
+  gap: 4px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.ds-ibar__field {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  height: 56px;
+  padding: 8px 16px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.ds-ibar__field input,
+.ds-ibar__input {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-family: var(--ds-font-family);
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+  outline: none;
+}
+
+.ds-ibar__field input::placeholder,
+.ds-ibar__input::placeholder {
+  color: #666666;
+}
+
+/* Chat Icon container — white, pad 16/12/12/16, radius via sheet */
+.ds-ibar__chat-sheet {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 16px 12px 12px 16px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.ds-ibar__chat-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.ds-ibar__chat-tools {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ds-ibar__tool {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.ds-ibar__tool img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+/* .Contextual pills */
+.ds-ibar__pills {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.ds-ibar__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 4px 12px 4px 4px;
+  background: #ffffff;
+  border-radius: 999px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.ds-ibar__pill-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--ds-radius-full);
+  background: #0766dc;
+  flex-shrink: 0;
+}
+
+.ds-ibar__pill-icon--soft {
+  background: #f2f6ff;
+}
+
+.ds-ibar__pill-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ds-ibar__pill-title {
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: var(--ds-font-weight-medium);
+  color: #111111;
+}
+
+.ds-ibar__pill-sub {
+  margin: 0;
+  font-size: 10px;
+  line-height: 11px;
+  color: #3d3d3d;
+  text-transform: uppercase;
+}
+
+/* Fav check 9014:35343 */
+.ds-fav {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ds-fav__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 32px;
+  padding: 0 4px;
+}
+
+.ds-fav__icon {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--ds-radius-full);
+  background: #f2f6ff;
+  flex-shrink: 0;
+}
+
+.ds-fav__label {
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #111111;
+}
+
+/* Chat prompt 6831:837 — suggestion chips under the thread */
+.ds-chat-prompt {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.ds-chat-prompt__item {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: #ffffff;
+  box-shadow: inset 0 0 0 1px var(--ds-colour-border-default);
+  font-family: var(--ds-font-family);
+  font-size: 16px;
+  line-height: 22px;
+  color: #111111;
+  text-align: left;
+  cursor: pointer;
+}

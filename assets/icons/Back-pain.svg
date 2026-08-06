@@ -1,0 +1,21 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Health">
+<path d="M-304.5 -286C-304.5 -287.105 -303.605 -288 -302.5 -288H1193.5C1194.6 -288 1195.5 -287.105 1195.5 -286V1210C1195.5 1211.1 1194.6 1212 1193.5 1212H-302.5C-303.605 1212 -304.5 1211.1 -304.5 1210V-286Z" fill="white"/>
+<path d="M-302.5 -288V-287H1193.5V-288V-289H-302.5V-288ZM1195.5 -286H1194.5V1210H1195.5H1196.5V-286H1195.5ZM1193.5 1212V1211H-302.5V1212V1213H1193.5V1212ZM-304.5 1210H-303.5V-286H-304.5H-305.5V1210H-304.5ZM-302.5 1212V1211C-303.052 1211 -303.5 1210.55 -303.5 1210H-304.5H-305.5C-305.5 1211.66 -304.157 1213 -302.5 1213V1212ZM1195.5 1210H1194.5C1194.5 1210.55 1194.05 1211 1193.5 1211V1212V1213C1195.16 1213 1196.5 1211.66 1196.5 1210H1195.5ZM1193.5 -288V-287C1194.05 -287 1194.5 -286.552 1194.5 -286H1195.5H1196.5C1196.5 -287.657 1195.16 -289 1193.5 -289V-288ZM-302.5 -288V-289C-304.157 -289 -305.5 -287.657 -305.5 -286H-304.5H-303.5C-303.5 -286.552 -303.052 -287 -302.5 -287V-288Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Back pain">
+<rect x="-20" y="-55.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Back pain">
+<path id="Vector" d="M9.33398 11.5384C9.33398 9.94254 10.5939 8.68262 12.1897 8.68262" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M6.73047 11.1187C6.73047 8.34691 8.99827 6.0791 11.77 6.0791" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M8.43028 2.63477V4.14662C5.07057 5.15454 2.55078 8.26232 2.55078 11.958V16.9976" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M17.4184 6.41541C16.4105 5.3235 15.1506 4.56757 13.7227 4.06362V2.55176" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M18.7187 9.69043C20.1466 10.6143 20.9026 11.6223 18.5508 13.8901" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M12.084 21.3645L13.0919 18.1727L12.336 16.4088C12.084 15.8209 11.916 13.469 11.832 12.2092C11.832 11.7052 12.084 11.2853 12.588 11.1173C13.1759 10.9493 13.7639 11.2012 14.0159 11.7052L14.6878 13.2171L15.4437 12.7972C15.7797 12.6291 16.1996 12.3772 16.6196 12.0411" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M19.9788 11.874C21.1547 12.546 21.4067 13.4699 20.9027 14.5618C21.7426 15.7377 22.1626 17.5015 17.879 20.4413L17.7109 21.4492" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

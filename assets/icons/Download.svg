@@ -1,0 +1,22 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Action">
+<path d="M-1128 -459C-1128 -460.105 -1127.1 -461 -1126 -461H370C371.104 -461 372 -460.105 372 -459V1037C372 1038.1 371.105 1039 370 1039H-1126C-1127.1 1039 -1128 1038.1 -1128 1037V-459Z" fill="white"/>
+<path d="M-1126 -461V-460H370V-461V-462H-1126V-461ZM372 -459H371V1037H372H373V-459H372ZM370 1039V1038H-1126V1039V1040H370V1039ZM-1128 1037H-1127V-459H-1128H-1129V1037H-1128ZM-1126 1039V1038C-1126.55 1038 -1127 1037.55 -1127 1037H-1128H-1129C-1129 1038.66 -1127.66 1040 -1126 1040V1039ZM372 1037H371C371 1037.55 370.552 1038 370 1038V1039V1040C371.657 1040 373 1038.66 373 1037H372ZM370 -461V-460C370.552 -460 371 -459.552 371 -459H372H373C373 -460.657 371.657 -462 370 -462V-461ZM-1126 -461V-462C-1127.66 -462 -1129 -460.657 -1129 -459H-1128H-1127C-1127 -459.552 -1126.55 -460 -1126 -460V-461Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Download">
+<rect x="-15.5" y="-55.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M" clip-path="url(#Download_clip0_6144_42120)">
+<g id="Frame">
+<path id="Vector" d="M12.0029 4.95312V15.2031" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M8.15918 11.3594L12.0029 15.2031L15.8467 11.3594" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M21.6123 15.2031V16.4844C21.6123 17.164 21.3423 17.8158 20.8618 18.2963C20.3812 18.7769 19.7294 19.0469 19.0498 19.0469H4.95605C4.27644 19.0469 3.62466 18.7769 3.14409 18.2963C2.66353 17.8158 2.39355 17.164 2.39355 16.4844V15.2031" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="Download_clip0_6144_42120">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

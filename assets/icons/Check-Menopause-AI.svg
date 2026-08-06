@@ -1,0 +1,23 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="AI Health Checks">
+<path d="M-120 -452C-120 -453.105 -119.105 -454 -118 -454H1378C1379.1 -454 1380 -453.105 1380 -452V1044C1380 1045.1 1379.1 1046 1378 1046H-118C-119.105 1046 -120 1045.1 -120 1044V-452Z" fill="white"/>
+<path d="M-118 -454V-453H1378V-454V-455H-118V-454ZM1380 -452H1379V1044H1380H1381V-452H1380ZM1378 1046V1045H-118V1046V1047H1378V1046ZM-120 1044H-119V-452H-120H-121V1044H-120ZM-118 1046V1045C-118.552 1045 -119 1044.55 -119 1044H-120H-121C-121 1045.66 -119.657 1047 -118 1047V1046ZM1380 1044H1379C1379 1044.55 1378.55 1045 1378 1045V1046V1047C1379.66 1047 1381 1045.66 1381 1044H1380ZM1378 -454V-453C1378.55 -453 1379 -452.552 1379 -452H1380H1381C1381 -453.657 1379.66 -455 1378 -455V-454ZM-118 -454V-455C-119.657 -455 -121 -453.657 -121 -452H-120H-119C-119 -452.552 -118.552 -453 -118 -453V-454Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Check-Menopause-AI">
+<rect x="-19.5" y="-49.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Menopause">
+<path id="Vector" d="M4.11 2.75098C4.11 2.75098 2.75 4.56098 2.75 8.13098C2.75 11.701 3.5 16.321 4.25 20.751" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_2" d="M19.3998 2.75098C19.3998 2.75098 20.7598 4.56098 20.7598 8.13098C20.7598 11.701 20.0098 16.321 19.2598 20.751" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_3" d="M11.7602 4.1707C11.7002 4.1707 11.6602 4.0107 11.6602 3.8207C11.6602 3.6307 11.7002 3.4707 11.7602 3.4707" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_4" d="M11.7598 4.1707C11.8198 4.1707 11.8598 4.0107 11.8598 3.8207C11.8598 3.6307 11.8198 3.4707 11.7598 3.4707" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_5" d="M10.5996 16.749V20.749" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_6" d="M12.9199 16.749V20.749" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_7" d="M10.5 10.8496V12.6496" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_8" d="M13 10.8496V12.6496" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<path id="Vector_9" d="M11.75 16.75C14.5114 16.75 16.75 14.5114 16.75 11.75C16.75 8.98858 14.5114 6.75 11.75 6.75C8.98858 6.75 6.75 8.98858 6.75 11.75C6.75 14.5114 8.98858 16.75 11.75 16.75Z" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

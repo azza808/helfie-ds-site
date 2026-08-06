@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Health">
+<path d="M-764.5 -286C-764.5 -287.105 -763.605 -288 -762.5 -288H733.5C734.604 -288 735.5 -287.105 735.5 -286V1210C735.5 1211.1 734.605 1212 733.5 1212H-762.5C-763.605 1212 -764.5 1211.1 -764.5 1210V-286Z" fill="white"/>
+<path d="M-762.5 -288V-287H733.5V-288V-289H-762.5V-288ZM735.5 -286H734.5V1210H735.5H736.5V-286H735.5ZM733.5 1212V1211H-762.5V1212V1213H733.5V1212ZM-764.5 1210H-763.5V-286H-764.5H-765.5V1210H-764.5ZM-762.5 1212V1211C-763.052 1211 -763.5 1210.55 -763.5 1210H-764.5H-765.5C-765.5 1211.66 -764.157 1213 -762.5 1213V1212ZM735.5 1210H734.5C734.5 1210.55 734.052 1211 733.5 1211V1212V1213C735.157 1213 736.5 1211.66 736.5 1210H735.5ZM733.5 -288V-287C734.052 -287 734.5 -286.552 734.5 -286H735.5H736.5C736.5 -287.657 735.157 -289 733.5 -289V-288ZM-762.5 -288V-289C-764.157 -289 -765.5 -287.657 -765.5 -286H-764.5H-763.5C-763.5 -286.552 -763.052 -287 -762.5 -287V-288Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Sleep_Alt">
+<rect x="-20" y="-55.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Sleep_Health">
+<path id="Vector" d="M1.80273 7.58301H8.45847L1.80273 15.7397H8.45847" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M12.7012 1.50098H17.6645L12.7012 7.58361H17.6645" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M14.3105 12.833H22.1985L14.3105 22.4998H22.1985" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

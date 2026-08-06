@@ -1,0 +1,23 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Action">
+<path d="M-1316 -459C-1316 -460.105 -1315.1 -461 -1314 -461H182C183.104 -461 184 -460.105 184 -459V1037C184 1038.1 183.105 1039 182 1039H-1314C-1315.1 1039 -1316 1038.1 -1316 1037V-459Z" fill="white"/>
+<path d="M-1314 -461V-460H182V-461V-462H-1314V-461ZM184 -459H183V1037H184H185V-459H184ZM182 1039V1038H-1314V1039V1040H182V1039ZM-1316 1037H-1315V-459H-1316H-1317V1037H-1316ZM-1314 1039V1038C-1314.55 1038 -1315 1037.55 -1315 1037H-1316H-1317C-1317 1038.66 -1315.66 1040 -1314 1040V1039ZM184 1037H183C183 1037.55 182.552 1038 182 1038V1039V1040C183.657 1040 185 1038.66 185 1037H184ZM182 -461V-460C182.552 -460 183 -459.552 183 -459H184H185C185 -460.657 183.657 -462 182 -462V-461ZM-1314 -461V-462C-1315.66 -462 -1317 -460.657 -1317 -459H-1316H-1315C-1315 -459.552 -1314.55 -460 -1314 -460V-461Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Expand">
+<rect x="-19.5" y="-55.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Frame" clip-path="url(#Expand_clip0_6144_42120)">
+<path id="Vector" d="M15 4.5H19.5V9" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M13.5 10.5L19.5 4.5" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M9 19.5H4.5V15" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M10.5 13.5L4.5 19.5" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="Expand_clip0_6144_42120">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

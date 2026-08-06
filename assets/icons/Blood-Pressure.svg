@@ -1,0 +1,18 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Health">
+<path d="M-304 -630C-304 -631.105 -303.105 -632 -302 -632H1194C1195.1 -632 1196 -631.105 1196 -630V866C1196 867.104 1195.1 868 1194 868H-302C-303.105 868 -304 867.105 -304 866V-630Z" fill="white"/>
+<path d="M-302 -632V-631H1194V-632V-633H-302V-632ZM1196 -630H1195V866H1196H1197V-630H1196ZM1194 868V867H-302V868V869H1194V868ZM-304 866H-303V-630H-304H-305V866H-304ZM-302 868V867C-302.552 867 -303 866.552 -303 866H-304H-305C-305 867.657 -303.657 869 -302 869V868ZM1196 866H1195C1195 866.552 1194.55 867 1194 867V868V869C1195.66 869 1197 867.657 1197 866H1196ZM1194 -632V-631C1194.55 -631 1195 -630.552 1195 -630H1196H1197C1197 -631.657 1195.66 -633 1194 -633V-632ZM-302 -632V-633C-303.657 -633 -305 -631.657 -305 -630H-304H-303C-303 -630.552 -302.552 -631 -302 -631V-632Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Blood-Pressure">
+<rect x="-19.5" y="-55.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Bloodpressure">
+<path id="Vector" d="M10 10.1602H13.5" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M11.75 8.41016V11.9102" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M10 15.9404H13.5" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M18.56 14.22C18.56 17.96 15.53 21 11.78 21C8.03 21 5 17.96 5 14.22C5 8.09 11.78 3 11.78 3C11.78 3 18.56 8.09 18.56 14.22Z" stroke="#111111" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

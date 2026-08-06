@@ -1,0 +1,28 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E7E7E7"/>
+<g id="Health">
+<path d="M-764.5 -630C-764.5 -631.105 -763.605 -632 -762.5 -632H733.5C734.604 -632 735.5 -631.105 735.5 -630V866C735.5 867.104 734.605 868 733.5 868H-762.5C-763.605 868 -764.5 867.105 -764.5 866V-630Z" fill="white"/>
+<path d="M-762.5 -632V-631H733.5V-632V-633H-762.5V-632ZM735.5 -630H734.5V866H735.5H736.5V-630H735.5ZM733.5 868V867H-762.5V868V869H733.5V868ZM-764.5 866H-763.5V-630H-764.5H-765.5V866H-764.5ZM-762.5 868V867C-763.052 867 -763.5 866.552 -763.5 866H-764.5H-765.5C-765.5 867.657 -764.157 869 -762.5 869V868ZM735.5 866H734.5C734.5 866.552 734.052 867 733.5 867V868V869C735.157 869 736.5 867.657 736.5 866H735.5ZM733.5 -632V-631C734.052 -631 734.5 -630.552 734.5 -630H735.5H736.5C736.5 -631.657 735.157 -633 733.5 -633V-632ZM-762.5 -632V-633C-764.157 -633 -765.5 -631.657 -765.5 -630H-764.5H-763.5C-763.5 -630.552 -763.052 -631 -762.5 -631V-632Z" fill="black" fill-opacity="0.1"/>
+<g id="Icon_Blood_Markers">
+<rect x="-20" y="-55.5" width="71" height="151" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="Size=M">
+<g id="Blood_Markers">
+<path id="Vector" d="M8.16312 19.9223C7.77644 19.737 7.40342 19.5244 7.04688 19.2861" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M5.17191 17.5374C4.90391 17.2037 4.66228 16.8497 4.44922 16.4785" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M3.5111 14.091C3.4156 13.6729 3.35247 13.2481 3.32227 12.8203" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M8.16406 4.43334C8.54891 4.24636 8.94638 4.08655 9.35355 3.95508" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M11.8945 3.57422C12.3235 3.58118 12.7515 3.61655 13.1758 3.68011" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M15.6191 4.43262C16.006 4.61817 16.3793 4.83077 16.7363 5.06883" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M18.6191 6.81445C18.8865 7.15015 19.1281 7.5056 19.3418 7.87775" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M7.36867 7.54445C7.36867 8.24653 7.08976 8.91987 6.59331 9.41632C6.09686 9.91277 5.42353 10.1917 4.72144 10.1917C4.01935 10.1917 3.34602 9.91277 2.84957 9.41632C2.35312 8.91987 2.07422 8.24653 2.07422 7.54445C2.07422 6.0823 4.72144 2.25 4.72144 2.25C4.72144 2.25 7.36867 6.0823 7.36867 7.54445Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M15.3744 11.2614L21.2961 13.0182C21.2961 13.0182 22.1421 13.2692 21.8911 14.1151L19.7579 21.3058C19.7579 21.3058 19.5069 22.1518 18.6609 21.9008L12.7392 20.144C12.7392 20.144 11.8932 19.893 12.1442 19.0471L14.2775 11.8564C14.2775 11.8564 14.5284 11.0104 15.3744 11.2614Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M18.3359 12.1426L18.9007 10.2393" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M20.873 12.8946L21.4378 10.9912" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M15.7988 11.3877L16.3627 9.48438" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" d="M15.9375 15.5713L18.4753 16.324" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" d="M15.1836 18.1084L17.7223 18.862" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
