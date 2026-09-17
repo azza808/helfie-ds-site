@@ -1,0 +1,12 @@
+---
+description: Shared Helfie Design System site workflow for every designer
+alwaysApply: true
+---
+
+# Helfie Design System site
+
+This repository is the team docs site for the published Helfie library. Figma Component Library 2026 is the source of truth.
+
+Designers describe a token, new component, component update, or deprecation. Follow `.cursor/skills/helfie-ds-site/SKILL.md` and `docs/UPDATING_THE_SYSTEM.md`. Measure Figma, update the site, compare before handoff. When they ask to share, open a pull request.
+
+Designers do not edit files or run git. Do not ask them to. Do not create a second site or put this inside Helfie Labs.

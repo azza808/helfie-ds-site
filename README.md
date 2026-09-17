@@ -20,6 +20,12 @@ Day to day:
 2. Paste the change (token, new component, component update, or deprecate) plus the Figma URL.
 3. Review the live page. Ask Cursor to share it with the team.
 
+Designer steps, including copy-paste prompts: [docs/UPDATING_THE_SYSTEM.md](docs/UPDATING_THE_SYSTEM.md).
+
+### A useful prompt
+
+> Update the design system. Change type: token. Name: colour-fill-accent. Old → new: #0537FF → (published value). Figma: [library URL]. Published: yes. Do not ask me to edit files or run commands.
+
 ## Invite designers
 
 Repo **Settings → Collaborators** → add their GitHub username → **Write**.
