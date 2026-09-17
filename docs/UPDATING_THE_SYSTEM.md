@@ -64,7 +64,6 @@ They can then ask Cursor to make the project current and paste a prompt above. C
 ## Do not
 
 - Edit the site files yourself
-- Fork this repo or keep using [Imtiazbahar/helfie-ds-site](https://github.com/Imtiazbahar/helfie-ds-site)
 - Invent a colour or size that is not in the library
 - Detach a Figma component and ship the one-off
 - Ask Cursor to put this site inside Helfie Labs
