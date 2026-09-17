@@ -32,6 +32,24 @@ Repo **Settings → Collaborators** → add their GitHub username → **Write**.
 
 They clone this repository, not a fork and not the old preview.
 
+## What’s in this folder
+
+A new designer does not need to open these. Read this README and [docs/UPDATING_THE_SYSTEM.md](docs/UPDATING_THE_SYSTEM.md). Cursor uses the rest.
+
+| Name | What it is | Who it’s for |
+|---|---|---|
+| **README.md** | This page — how the team works | Designers |
+| **docs/** | How to add or edit the system, with prompts | Designers |
+| **AGENTS.md** | Short instruction so Cursor follows the same workflow | Cursor, not people |
+| **.cursor/** | The detailed playbook Cursor reads when you ask for a change | Cursor, not people |
+| **assets/** | Pictures the site shows: logo and icons exported from Figma | The live site |
+| **css/** | How the site looks. `tokens.css` is colour, type, space | The live site |
+| **js/** | The actual pages (Start, Button, Colour…) and the menu | The live site |
+| **index.html** | The empty shell that loads the site | The live site |
+| **scripts/** | Helper jobs used when building the site | Cursor |
+
+Hashed names inside `assets/` (for example `9c7986a0….svg`) are the Helfie logo files. `assets/icons/` is the icon set from the library.
+
 ## Design source
 
 - [Helfie Component Library 2026](https://www.figma.com/design/f7lZix9shDCvJqpRXVWCcb)

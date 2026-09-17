@@ -6,6 +6,8 @@ You are updating the Helfie Design System site, not creating a second copy.
 
 You do not edit files or run commands.
 
+If the GitHub folder looks noisy: **AGENTS.md**, **.cursor/**, **assets/**, **css/**, and **js/** are for Cursor and the live site. You only need this guide.
+
 **Team repo:** [github.com/azza808/helfie-ds-site](https://github.com/azza808/helfie-ds-site)  
 **Live site:** [azza808.github.io/helfie-ds-site](https://azza808.github.io/helfie-ds-site/)
 
